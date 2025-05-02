@@ -7,7 +7,7 @@
     <title>@yield('title', '')</title>
     <meta name="description" content="@yield('description', '')">
     <meta name="keywords" content="@yield('keywords', '')">
-    <link rel="icon" href="{{ asset('images/favicon.png') }}">
+    <link rel="icon" href="{{ asset('images/logo.png') }}">
 
 
     <!-- Google tag (gtag.js) -->
@@ -19,6 +19,269 @@
 <body class="bg-[#ffffff] text-paragraph font-PlayfairDisplayRegular">
 
 {{--Navigation Bar--}}
+<nav class="bg-black text-white shadow-lg py-2 md:py-4  top-0 z-50 border-b-4 border-[#f5d118]">
+    <div class="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between h-20 items-center">
+            <!-- Logo -->
+            <div class="flex-shrink-0 flex items-center">
+                <a href="/" class="flex items-center">
+                    <img src="{{ asset('images/logo.png') }}" alt="Labl-fashion Logo" class="h-18 md:h-20 lg:h-24 transition-all duration-300">
+                </a>
+            </div>
+
+            <!-- Desktop Menu -->
+            <div class="hidden md:ml-10 md:flex md:items-center md:space-x-8">
+                <a href="/" class="px-3 py-2 text-white hover:text-[#f5d118] transition-colors duration-300 flex items-center">
+                    <i class="fas fa-home mr-2"></i> Home
+                </a>
+                <a href="/about-us" class="px-3 py-2 text-white hover:text-[#f5d118] transition-colors duration-300 flex items-center">
+                    <i class="fas fa-info-circle mr-2"></i> About Us
+                </a>
+
+                <!-- Products Dropdown -->
+                <div class="relative group">
+                    <button class="px-3 py-2 text-white hover:text-[#f5d118] transition-colors duration-300 flex items-center">
+                        <i class="fas fa-egg mr-2"></i> Products
+                        <i class="fas fa-chevron-down ml-1 text-xs"></i>
+                    </button>
+                    <div class="absolute left-0 mt-2 w-56 origin-top-left rounded-md shadow-lg bg-black border border-[#f5d118] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
+                        <div class="py-1">
+                            <a href="/products/kienyeji-chicks" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
+                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Kienyeji Chicks
+                            </a>
+                            <a href="/products/kuroiler-chicks" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
+                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Kuroiler Chicks
+                            </a>
+                            <a href="/products/kari-improved" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
+                                <i class="fas fa-chevron-right mr-2 text-xs"></i> KARI Improved
+                            </a>
+                            <a href="/products/white-leghorn" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
+                                <i class="fas fa-chevron-right mr-2 text-xs"></i> White Leghorn
+                            </a>
+                            <a href="/products/duck-breeds" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
+                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Duck Breeds
+                            </a>
+                            <a href="/products/turkey-farming" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
+                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Turkey Farming
+                            </a>
+                            <a href="/products/hatching-eggs" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
+                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Hatching Eggs
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Services Dropdown -->
+                <div class="relative group">
+                    <button class="px-3 py-2 text-white hover:text-[#f5d118] transition-colors duration-300 flex items-center">
+                        <i class="fas fa-concierge-bell mr-2"></i> Services
+                        <i class="fas fa-chevron-down ml-1 text-xs"></i>
+                    </button>
+                    <div class="absolute left-0 mt-2 w-56 origin-top-left rounded-md shadow-lg bg-black border border-[#f5d118] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
+                        <div class="py-1">
+                            <a href="/services/incubation" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
+                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Incubation Service
+                            </a>
+                            <a href="/services/training" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
+                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Farmers Training
+                            </a>
+                            <a href="/services/vaccination" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
+                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Vaccination Services
+                            </a>
+                            <a href="/services/farm-visit" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
+                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Farm Visit
+                            </a>
+                            <a href="/services/after-sale" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
+                                <i class="fas fa-chevron-right mr-2 text-xs"></i> After-sale Services
+                            </a>
+                            <a href="/services/consulting" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
+                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Consulting Services
+                            </a>
+                            <a href="/services/youth-mentorship" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
+                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Youth Mentorship
+                            </a>
+                            <a href="/services/chicks-delivery" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
+                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Chicks Delivery
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="/blog" class="px-3 py-2 text-white hover:text-[#f5d118] transition-colors duration-300 flex items-center">
+                    <i class="fas fa-blog mr-2"></i> Blog
+                </a>
+                <a href="/faqs" class="px-3 py-2 text-white hover:text-[#f5d118] transition-colors duration-300 flex items-center">
+                    <i class="fas fa-question-circle mr-2"></i> FAQs
+                </a>
+                <a href="/contact-us" class="px-3 py-2 text-white hover:text-[#f5d118] transition-colors duration-300 flex items-center">
+                    <i class="fas fa-envelope mr-2"></i> Contact Us
+                </a>
+            </div>
+
+            <!-- Mobile menu button -->
+            <div class="md:hidden flex items-center">
+                <button type="button" id="mobile-menu-button" class="inline-flex items-center justify-center p-2 rounded-md text-[#f5d118] hover:text-white hover:bg-gray-700 focus:outline-none">
+                    <span class="sr-only">Open main menu</span>
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden fixed inset-0 z-40 bg-black bg-opacity-95 h-screen w-full transform -translate-x-full transition-transform duration-300 ease-in-out">
+        <div class="relative w-full h-full overflow-y-auto">
+            <div class="absolute top-4 left-4">
+                <img src="{{ asset('images/logo.png') }}" alt="Eggcellent" class="h-20 w-auto">
+            </div>
+
+            <div class="absolute top-4 right-4">
+                <button id="mobile-menu-close" type="button" class="flex items-center justify-center p-2 rounded-md text-[#f5d118] hover:text-white focus:outline-none">
+                    <span class="sr-only">Close menu</span>
+                    <i class="fas fa-times text-2xl"></i>
+                </button>
+            </div>
+
+
+            <div class="h-full py-16 px-6 mt-18">
+                <div class="flex flex-col space-y-6">
+                    <a href="/" class="text-white hover:text-[#f5d118] text-xl font-medium flex items-center border-b border-gray-800 pb-4">
+                        <i class="fas fa-home mr-3"></i> Home
+                    </a>
+                    <a href="/about-us" class="text-white hover:text-[#f5d118] text-xl font-medium flex items-center border-b border-gray-800 pb-4">
+                        <i class="fas fa-info-circle mr-3"></i> About Us
+                    </a>
+
+                    <!-- Products Accordion -->
+                    <div>
+                        <button id="mobile-products-button" class="w-full flex justify-between items-center text-white hover:text-[#f5d118] text-xl font-medium border-b border-gray-800 pb-4">
+                            <span class="flex items-center">
+                                <i class="fas fa-egg mr-3"></i> Products
+                            </span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div id="mobile-products-menu" class="hidden pl-10 pt-3 space-y-3">
+                            <a href="/products/kienyeji-chicks" class="block text-gray-300 hover:text-[#f5d118]">
+                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Kienyeji Chicks
+                            </a>
+                            <a href="/products/kuroiler-chicks" class="block text-gray-300 hover:text-[#f5d118]">
+                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Kuroiler Chicks
+                            </a>
+                            <a href="/products/kari-improved" class="block text-gray-300 hover:text-[#f5d118]">
+                                <i class="fas fa-chevron-right mr-2 text-xs"></i> KARI Improved
+                            </a>
+                            <a href="/products/white-leghorn" class="block text-gray-300 hover:text-[#f5d118]">
+                                <i class="fas fa-chevron-right mr-2 text-xs"></i> White Leghorn
+                            </a>
+                            <a href="/products/duck-breeds" class="block text-gray-300 hover:text-[#f5d118]">
+                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Duck Breeds
+                            </a>
+                            <a href="/products/turkey-farming" class="block text-gray-300 hover:text-[#f5d118]">
+                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Turkey Farming
+                            </a>
+                            <a href="/products/hatching-eggs" class="block text-gray-300 hover:text-[#f5d118]">
+                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Hatching Eggs
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Services Accordion -->
+                    <div>
+                        <button id="mobile-services-button" class="w-full flex justify-between items-center text-white hover:text-[#f5d118] text-xl font-medium border-b border-gray-800 pb-4">
+                            <span class="flex items-center">
+                                <i class="fas fa-concierge-bell mr-3"></i> Services
+                            </span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div id="mobile-services-menu" class="hidden pl-10 pt-3 space-y-3">
+                            <a href="/services/incubation" class="block text-gray-300 hover:text-[#f5d118]">
+                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Incubation Service
+                            </a>
+                            <a href="/services/training" class="block text-gray-300 hover:text-[#f5d118]">
+                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Farmers Training
+                            </a>
+                            <a href="/services/vaccination" class="block text-gray-300 hover:text-[#f5d118]">
+                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Vaccination Services
+                            </a>
+                            <a href="/services/farm-visit" class="block text-gray-300 hover:text-[#f5d118]">
+                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Farm Visit
+                            </a>
+                            <a href="/services/after-sale" class="block text-gray-300 hover:text-[#f5d118]">
+                                <i class="fas fa-chevron-right mr-2 text-xs"></i> After-sale Services
+                            </a>
+                            <a href="/services/consulting" class="block text-gray-300 hover:text-[#f5d118]">
+                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Consulting Services
+                            </a>
+                            <a href="/services/youth-mentorship" class="block text-gray-300 hover:text-[#f5d118]">
+                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Youth Mentorship
+                            </a>
+                            <a href="/services/chicks-delivery" class="block text-gray-300 hover:text-[#f5d118]">
+                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Chicks Delivery
+                            </a>
+                        </div>
+                    </div>
+
+                    <a href="/blog" class="text-white hover:text-[#f5d118] text-xl font-medium flex items-center border-b border-gray-800 pb-4">
+                        <i class="fas fa-blog mr-3"></i> Blog
+                    </a>
+                    <a href="/faqs" class="text-white hover:text-[#f5d118] text-xl font-medium flex items-center border-b border-gray-800 pb-4">
+                        <i class="fas fa-question-circle mr-3"></i> FAQs
+                    </a>
+                    <a href="/contact-us" class="text-white hover:text-[#f5d118] text-xl font-medium flex items-center border-b border-gray-800 pb-4">
+                        <i class="fas fa-envelope mr-3"></i> Contact Us
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<script>
+    // Mobile menu toggle functionality
+    const mobileMenuButton = document.getElementById('mobile-menu-button');
+    const mobileMenuClose = document.getElementById('mobile-menu-close');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    mobileMenuButton.addEventListener('click', () => {
+        mobileMenu.classList.remove('hidden');
+        mobileMenu.classList.remove('-translate-x-full');
+        mobileMenu.classList.add('translate-x-0');
+        document.body.style.overflow = 'hidden';
+    });
+
+    mobileMenuClose.addEventListener('click', () => {
+        mobileMenu.classList.add('-translate-x-full');
+        mobileMenu.classList.remove('translate-x-0');
+        setTimeout(() => {
+            mobileMenu.classList.add('hidden');
+            document.body.style.overflow = 'auto';
+        }, 300);
+    });
+
+    // Mobile dropdown functionality
+    const mobileProductsButton = document.getElementById('mobile-products-button');
+    const mobileProductsMenu = document.getElementById('mobile-products-menu');
+    const mobileServicesButton = document.getElementById('mobile-services-button');
+    const mobileServicesMenu = document.getElementById('mobile-services-menu');
+
+    if (mobileProductsButton) {
+        mobileProductsButton.addEventListener('click', () => {
+            mobileProductsMenu.classList.toggle('hidden');
+            const icon = mobileProductsButton.querySelector('.fa-chevron-down');
+            icon.classList.toggle('transform');
+            icon.classList.toggle('rotate-180');
+        });
+    }
+
+    if (mobileServicesButton) {
+        mobileServicesButton.addEventListener('click', () => {
+            mobileServicesMenu.classList.toggle('hidden');
+            const icon = mobileServicesButton.querySelector('.fa-chevron-down');
+            icon.classList.toggle('transform');
+            icon.classList.toggle('rotate-180');
+        });
+    }
+</script>
 
 
 
@@ -27,101 +290,146 @@
 </main>
 
 {{--Footer element--}}
-<footer class="bg-[#010101] text-[#e2d9ce] pt-12 pb-8">
-    <div class="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
-        <!-- Footer Grid -->
-        <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+<footer class="bg-black text-yellow-50 pt-12 pb-6 px-8 border-t-4 border-[#f5d118]">
+    <div class="max-w-8xl mx-auto">
+        <!-- Footer Content Grid -->
+        <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-5 gap-8 mb-10">
 
-            <!-- Company Info -->
-            <div class="space-y-4">
-                <img src="{{ asset('images/logo.png') }}" alt="Urban Drive" class="h-10 w-auto">
-                <p class="text-sm leading-relaxed">Urban Drive Motors - Your premier destination for quality vehicles and exceptional service since 2010.</p>
+            <!-- Brand Column -->
+            <div>
+                <img src="{{ asset('images/logo.png') }}" alt="Eggcellent" class="h-20 md:h-24 w-auto">
+                <p class="text-sm opacity-80">
+                    At Eggcellent Kienyeji Chicken Poultry, we specialize in raising authentic Kienyeji chickens known for their natural hardiness, rich flavor, and superior nutritional value.
+                </p>
+
+
+                <h3 class="text-[#f5d118] font-semibold text-lg mt-6 ">Our Socials</h3>
+
                 <div class="flex space-x-4">
-                    <a href="#" class="text-[#e86e25] hover:text-white transition">
-                        <i class="fab fa-facebook-f text-xl"></i>
+                    <a href="https://www.facebook.com/people/Eggcellent-Kienyeji-Chicken-Poultry/61552131720441/" target="_blank" class="text-gray-300 hover:text-[#f5d118] transition-colors text-xl">
+                        <i class="fab fa-facebook-f"></i>
                     </a>
-                    <a href="#" class="text-[#e86e25] hover:text-white transition">
-                        <i class="fab fa-twitter text-xl"></i>
+                    <a href="#" target="_blank" class="text-gray-300 hover:text-[#f5d118] transition-colors text-xl">
+                        <i class="fab fa-x"></i>
                     </a>
-                    <a href="#" class="text-[#e86e25] hover:text-white transition">
-                        <i class="fab fa-instagram text-xl"></i>
+                    <a href="#" target="_blank" class="text-gray-300 hover:text-[#f5d118] transition-colors text-xl">
+                        <i class="fab fa-instagram"></i>
                     </a>
-                    <a href="#" class="text-[#e86e25] hover:text-white transition">
-                        <i class="fab fa-linkedin-in text-xl"></i>
+                    <a href="https://www.youtube.com/@eggcellent_kienyeji" target="_blank" class="text-gray-300 hover:text-[#f5d118] transition-colors text-xl">
+                        <i class="fab fa-youtube"></i>
                     </a>
                 </div>
             </div>
 
-            <!-- Quick Links -->
+
+
+
+            <!-- Products Column -->
             <div>
-                <h3 class="text-lg font-semibold text-[#e86e25] mb-4 border-b border-[#e86e25] pb-2">Quick Links</h3>
+                <h3 class="text-lg font-bold text-[#f5d118] mb-4 border-b border-[#f5d118] pb-2">Our Products</h3>
                 <ul class="space-y-2">
-                    <li><a href="#" class="hover:text-[#e86e25] transition">Home</a></li>
-                    <li><a href="#" class="hover:text-[#e86e25] transition">Inventory</a></li>
-                    <li><a href="#" class="hover:text-[#e86e25] transition">Financing</a></li>
-                    <li><a href="#" class="hover:text-[#e86e25] transition">Trade-In</a></li>
-                    <li><a href="#" class="hover:text-[#e86e25] transition">Testimonials</a></li>
+                    <li><a href="/products/kienyeji-chicks" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
+                            <svg class="w-3 h-3 mr-2 text-[#f5d118]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path></svg>
+                            Kienyeji Chicks</a></li>
+                    <li><a href="/products/kuroiler-chicks" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
+                            <svg class="w-3 h-3 mr-2 text-[#f5d118]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path></svg>
+                            Kuroiler Chicks</a></li>
+                    <li><a href="/products/kari-improved" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
+                            <svg class="w-3 h-3 mr-2 text-[#f5d118]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path></svg>
+                            KARI Improved</a></li>
+                    <li><a href="/products/white-leghorn" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
+                            <svg class="w-3 h-3 mr-2 text-[#f5d118]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path></svg>
+                            White Leghorn</a></li>
+                    <li><a href="/products/duck-breeds" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
+                            <svg class="w-3 h-3 mr-2 text-[#f5d118]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path></svg>
+                            Duck Breeds</a></li>
+                    <li><a href="/products/turkey-farming" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
+                            <svg class="w-3 h-3 mr-2 text-[#f5d118]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path></svg>
+                            Turkey Farming</a></li>
+                    <li><a href="/products/hatching-eggs" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
+                            <svg class="w-3 h-3 mr-2 text-[#f5d118]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path></svg>
+                            Hatching Eggs</a></li>
                 </ul>
             </div>
 
-            <!-- Contact Info -->
+            <!-- Services Column -->
             <div>
-                <h3 class="text-lg font-semibold text-[#e86e25] mb-4 border-b border-[#e86e25] pb-2">Contact Us</h3>
-                <ul class="space-y-3">
-                    <li class="flex items-start">
-                        <i class="fas fa-map-marker-alt mt-1 mr-3 text-[#e86e25]"></i>
-                        <span>123 Auto Mall Blvd, Motor City, MC 12345</span>
-                    </li>
-                    <li class="flex items-center">
-                        <i class="fas fa-phone-alt mr-3 text-[#e86e25]"></i>
-                        <span>+1 (555) 123-4567</span>
-                    </li>
-                    <li class="flex items-center">
-                        <i class="fas fa-envelope mr-3 text-[#e86e25]"></i>
-                        <span>info@urbandrive.com</span>
-                    </li>
-                    <li class="flex items-center">
-                        <i class="fas fa-clock mr-3 text-[#e86e25]"></i>
-                        <span>Mon-Sat: 9AM - 7PM</span>
-                    </li>
+                <h3 class="text-lg font-bold text-[#f5d118] mb-4 border-b border-[#f5d118] pb-2">Our Services</h3>
+                <ul class="space-y-2">
+                    <li><a href="/services/incubation" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
+                            <svg class="w-3 h-3 mr-2 text-[#f5d118]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path></svg>
+                            Incubation Service</a></li>
+                    <li><a href="/services/training" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
+                            <svg class="w-3 h-3 mr-2 text-[#f5d118]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path></svg>
+                            Farmers Training</a></li>
+                    <li><a href="/services/vaccination" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
+                            <svg class="w-3 h-3 mr-2 text-[#f5d118]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path></svg>
+                            Vaccination Services</a></li>
+                    <li><a href="/services/farm-visit" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
+                            <svg class="w-3 h-3 mr-2 text-[#f5d118]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path></svg>
+                            Farm Visit</a></li>
+                    <li><a href="/services/after-sale" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
+                            <svg class="w-3 h-3 mr-2 text-[#f5d118]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path></svg>
+                            After-sale Services</a></li>
+                    <li><a href="/services/consulting" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
+                            <svg class="w-3 h-3 mr-2 text-[#f5d118]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path></svg>
+                            Consulting Services</a></li>
                 </ul>
+            </div>
+
+            <!-- Quick Links Column -->
+            <div>
+                <h3 class="text-lg font-bold text-[#f5d118] mb-4 border-b border-[#f5d118] pb-2">Quick Links</h3>
+                <ul class="space-y-2">
+                    <li><a href="/" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
+                            <svg class="w-3 h-3 mr-2 text-[#f5d118]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path></svg>
+                            Home</a></li>
+                    <li><a href="/about-us" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
+                            <svg class="w-3 h-3 mr-2 text-[#f5d118]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path></svg>
+                            About Us</a></li>
+                    <li><a href="/blog" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
+                            <svg class="w-3 h-3 mr-2 text-[#f5d118]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path></svg>
+                            Blog</a></li>
+                    <li><a href="/faqs" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
+                            <svg class="w-3 h-3 mr-2 text-[#f5d118]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path></svg>
+                            FAQs</a></li>
+                    <li><a href="/contact-us" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
+                            <svg class="w-3 h-3 mr-2 text-[#f5d118]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path></svg>
+                            Contact Us</a></li>
+                </ul>
+
             </div>
 
             <!-- Newsletter -->
             <div>
-                <h3 class="text-lg font-semibold text-[#e86e25] mb-4 border-b border-[#e86e25] pb-2">Newsletter</h3>
-                <p class="mb-4 text-sm">Subscribe to get updates on new arrivals and special offers.</p>
-                <form class="space-y-3">
-                    <input type="email" placeholder="Your email address" class="w-full px-4 py-2 rounded bg-[#333] border border-[#555] focus:outline-none focus:border-[#e86e25]">
-                    <button type="submit" class="bg-[#e86e25] hover:bg-[#d1621f] text-white font-medium py-2 px-6 rounded transition duration-300">
+                <h3 class="text-lg font-bold text-[#f5d118] mb-3">Newsletter</h3>
+                <p class="text-xs text-gray-300 mb-3">Subscribe for poultry tips & offers</p>
+                <form class="flex">
+                    <input type="email" placeholder="Your email" class="px-3 py-2 text-xs text-gray-900 bg-white w-full rounded-l focus:outline-none focus:ring-2 focus:ring-[#f5d118]">
+                    <button type="submit" class="bg-[#f5d118] text-black px-4 py-2 text-xs font-bold rounded-r hover:bg-yellow-600 transition-colors focus:outline-none focus:ring-2 focus:ring-black">
                         Subscribe
                     </button>
                 </form>
             </div>
+
+
         </div>
 
-        <!-- Bottom Bar -->
-        <div class="border-t border-[#333] pt-6">
-            <div class="flex flex-col md:flex-row items-center md:items-center justify-between w-full">
-                <!-- Left: Copyright -->
-                <div class="flex-1 flex justify-start mb-2 md:mb-0">
-                    <p class="text-sm">&copy; <span id="year"></span> Urban Drive Motors. All rights reserved.</p>
-                </div>
-                <!-- Center: Policy, Terms, Sitemap -->
-                <div class="flex-1 flex justify-center space-x-6 mb-2 md:mb-0">
-                    <a href="#" class="text-sm hover:text-[#e86e25] transition">Privacy Policy</a>
-                    <a href="#" class="text-sm hover:text-[#e86e25] transition">Terms of Service</a>
-                    <a href="#" class="text-sm hover:text-[#e86e25] transition">Sitemap</a>
-                </div>
-                <!-- Right: Powered By -->
-                <div class="flex-1 flex justify-end">
-      <span class="text-sm">
-        Powered by
-        <a href="https://www.revoswifttech.co.ke/" target="_blank" class="hover:text-[#e86e25] underline transition">
-          RevoSwift Technologies
-        </a>
-      </span>
-                </div>
+        <!-- Copyright Section -->
+        <div class="border-t border-gray-800 pt-6 flex flex-col md:flex-row justify-between items-center">
+            <p class="text-xs text-gray-400 mb-3 md:mb-0">
+                Copyright © <span id="year"></span> Eggcellent Kienyeji Chicken Poultry. All rights reserved.
+            </p>
+            <div class="flex space-x-4 mb-3 md:mb-0">
+                <a href="/" class="text-xs text-gray-400 hover:text-[#f5d118] transition-colors">Privacy Policy</a>
+                <a href="/" class="text-xs text-gray-400 hover:text-[#f5d118] transition-colors">Terms of Service</a>
+                <a href="/sitemap.xml" class="text-xs text-gray-400 hover:text-[#f5d118] transition-colors">Sitemap</a>
+            </div>
+            <div class="text-xs text-gray-400">
+                Powered By
+                <a href="https://revoswifttech.coke" target="_blank" rel="noopener noreferrer" class="hover:text-[#f5d118] transition-colors font-semibold">
+                    RevoSwift Technologies
+                </a>
             </div>
         </div>
 
@@ -129,10 +437,8 @@
             // Dynamically update the year
             document.getElementById("year").textContent = new Date().getFullYear();
         </script>
-
     </div>
 </footer>
-
 
 @yield('js-scripts')
 </body>
