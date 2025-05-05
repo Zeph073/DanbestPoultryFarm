@@ -19,7 +19,7 @@
 <body class="bg-[#ffffff] text-paragraph font-PlayfairDisplayRegular">
 
 {{--Navigation Bar--}}
-<nav class="bg-black text-white shadow-lg py-2 md:py-4  top-0 z-50 border-b-4 border-[#f5d118]">
+<nav class="bg-black text-white shadow-lg py-2 md:py-4 relative top-0 z-50 border-b-4 border-[#f5d118]">
     <div class="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between h-20 items-center">
             <!-- Logo -->
@@ -44,28 +44,40 @@
                         <i class="fas fa-egg mr-2"></i> Products
                         <i class="fas fa-chevron-down ml-1 text-xs"></i>
                     </button>
-                    <div class="absolute left-0 mt-2 w-56 origin-top-left rounded-md shadow-lg bg-black border border-[#f5d118] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
+                    <div class="absolute left-0 mt-2 w-64 origin-top-left rounded-md shadow-lg bg-black border border-[#f5d118] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
                         <div class="py-1">
-                            <a href="/products/kienyeji-chicks" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
-                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Kienyeji Chicks
+                            <a href="/products/live-chicks" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
+                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Live Day-Old Chicks
                             </a>
-                            <a href="/products/kuroiler-chicks" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
-                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Kuroiler Chicks
+                            <a href="/products/grower-chickens" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
+                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Grower Chickens (4-6 weeks)
                             </a>
-                            <a href="/products/kari-improved" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
-                                <i class="fas fa-chevron-right mr-2 text-xs"></i> KARI Improved
+                            <a href="/products/laying-hens" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
+                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Mature Laying Hens
                             </a>
-                            <a href="/products/white-leghorn" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
-                                <i class="fas fa-chevron-right mr-2 text-xs"></i> White Leghorn
+                            <a href="/products/breeding-stock" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
+                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Breeding Cocks & Hens
                             </a>
-                            <a href="/products/duck-breeds" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
-                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Duck Breeds
+                            <a href="/products/kienyeji-chickens" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
+                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Indigenous (Kienyeji)
                             </a>
-                            <a href="/products/turkey-farming" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
-                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Turkey Farming
+                            <a href="/products/broiler-chickens" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
+                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Broiler Chickens
+                            </a>
+                            <a href="/products/other-poultry" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
+                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Other Poultry (Ducks, Turkeys)
+                            </a>
+                            <a href="/products/fresh-eggs" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
+                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Fresh Table Eggs
                             </a>
                             <a href="/products/hatching-eggs" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
-                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Hatching Eggs
+                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Fertile Hatching Eggs
+                            </a>
+                            <a href="/products/chicken-meat" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
+                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Fresh Chicken Meat
+                            </a>
+                            <a href="/products/chicken-manure" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
+                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Chicken Manure
                             </a>
                         </div>
                     </div>
@@ -77,31 +89,31 @@
                         <i class="fas fa-concierge-bell mr-2"></i> Services
                         <i class="fas fa-chevron-down ml-1 text-xs"></i>
                     </button>
-                    <div class="absolute left-0 mt-2 w-56 origin-top-left rounded-md shadow-lg bg-black border border-[#f5d118] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
+                    <div class="absolute left-0 mt-2 w-72 origin-top-left rounded-md shadow-lg bg-black border border-[#f5d118] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
                         <div class="py-1">
-                            <a href="/services/incubation" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
-                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Incubation Service
-                            </a>
-                            <a href="/services/training" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
-                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Farmers Training
+                            <a href="/services/poultry-housing" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
+                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Poultry Housing Construction
                             </a>
                             <a href="/services/vaccination" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
-                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Vaccination Services
+                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Vaccination & Health Management
                             </a>
-                            <a href="/services/farm-visit" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
-                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Farm Visit
+                            <a href="/services/training" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
+                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Poultry Farming Training
                             </a>
-                            <a href="/services/after-sale" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
-                                <i class="fas fa-chevron-right mr-2 text-xs"></i> After-sale Services
+                            <a href="/services/bulk-supply" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
+                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Bulk Supply to Farmers
+                            </a>
+                            <a href="/services/delivery" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
+                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Delivery Services
+                            </a>
+                            <a href="/services/equipment" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
+                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Poultry Equipment
+                            </a>
+                            <a href="/services/feeds-supplements" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
+                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Starter Feeds & Supplements
                             </a>
                             <a href="/services/consulting" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
-                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Consulting Services
-                            </a>
-                            <a href="/services/youth-mentorship" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
-                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Youth Mentorship
-                            </a>
-                            <a href="/services/chicks-delivery" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
-                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Chicks Delivery
+                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Farming Consultancy
                             </a>
                         </div>
                     </div>
