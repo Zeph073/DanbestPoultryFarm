@@ -15,7 +15,7 @@
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
                 <!-- Mission -->
                 <div class="bg-blue-950 p-6 rounded-xl shadow-md hover:shadow-xl transition duration-300 text-white">
-                    <h3 class="text-xl font-bold mb-3">Our Mission</h3>
+                    <h3 class="text-xl font-bold mb-3">Ouuuuur Mission</h3>
                     <p>To provide reliable, affordable, and innovative poultry solutions—from incubation to vaccination—
                         that enhance livelihoods and improve poultry farming standards.</p>
                 </div>
