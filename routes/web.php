@@ -16,3 +16,6 @@ Route::get('/faqs', function () {
 });
 
 
+Route::get('/contact-us', function () {
+    return view('contact-us');
+});
