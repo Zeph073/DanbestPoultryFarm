@@ -132,7 +132,7 @@
     <div id="mobile-menu" class="hidden md:hidden fixed inset-0 z-40 bg-black bg-opacity-95 h-screen w-full transform -translate-x-full transition-transform duration-300 ease-in-out">
         <div class="relative w-full h-full overflow-y-auto">
             <div class="absolute top-4 left-4">
-                <img src="{{ asset('images/logo.png') }}" alt="Eggcellent" class="h-20 w-auto">
+                <img src="{{ asset('images/logo.png') }}" alt="Danbest Poultry Farm" class="h-20 w-auto">
             </div>
 
             <div class="absolute top-4 right-4">
@@ -297,25 +297,26 @@
 
             <!-- Brand Column -->
             <div>
-                <img src="{{ asset('images/logo.png') }}" alt="Eggcellent" class="h-20 md:h-24 w-auto">
+                <img src="{{ asset('images/logo.png') }}" alt="Danbest Poultry Farm" class="h-20 md:h-24 w-auto">
                 <p class="text-sm opacity-80">
-                    At Eggcellent Kienyeji Chicken Poultry, we specialize in raising authentic Kienyeji chickens known for their natural hardiness, rich flavor, and superior nutritional value.
+                    At Danbest Poultry Farm, we are dedicated to raising high-quality live poultry and providing fresh poultry products that meet the needs of Kenyan farmers and households. Our farm specializes in indigenous (kienyeji) chickens, broilers, and layers, all raised under humane and sustainable conditions to ensure natural hardiness, rich flavor, and superior nutrition. We also offer expert poultry farming services to support your success in poultry rearing.
                 </p>
+
 
 
                 <h3 class="text-[#f5d118] font-semibold text-lg mt-6 ">Our Socials</h3>
 
                 <div class="flex space-x-4">
-                    <a href="https://www.facebook.com/people/Eggcellent-Kienyeji-Chicken-Poultry/61552131720441/" target="_blank" class="text-gray-300 hover:text-[#f5d118] transition-colors text-xl">
+                    <a href="#" target="_blank" class="text-gray-300 hover:text-[#f5d118] transition-colors text-xl">
                         <i class="fab fa-facebook-f"></i>
                     </a>
                     <a href="#" target="_blank" class="text-gray-300 hover:text-[#f5d118] transition-colors text-xl">
-                        <i class="fab fa-x"></i>
+                        <i class="fab fa-tiktok"></i>
                     </a>
                     <a href="#" target="_blank" class="text-gray-300 hover:text-[#f5d118] transition-colors text-xl">
                         <i class="fab fa-instagram"></i>
                     </a>
-                    <a href="https://www.youtube.com/@eggcellent_kienyeji" target="_blank" class="text-gray-300 hover:text-[#f5d118] transition-colors text-xl">
+                    <a href="#" target="_blank" class="text-gray-300 hover:text-[#f5d118] transition-colors text-xl">
                         <i class="fab fa-youtube"></i>
                     </a>
                 </div>
@@ -328,27 +329,39 @@
             <div>
                 <h3 class="text-lg font-bold text-[#f5d118] mb-4 border-b border-[#f5d118] pb-2">Our Products</h3>
                 <ul class="space-y-2">
-                    <li><a href="/products/kienyeji-chicks" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
+                    <li><a href="/products/live-chicks" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
                             <svg class="w-3 h-3 mr-2 text-[#f5d118]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path></svg>
-                            Kienyeji Chicks</a></li>
-                    <li><a href="/products/kuroiler-chicks" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
+                            Live day-old chicks</a></li>
+                    <li><a href="/products/grower-chickens" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
                             <svg class="w-3 h-3 mr-2 text-[#f5d118]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path></svg>
-                            Kuroiler Chicks</a></li>
-                    <li><a href="/products/kari-improved" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
+                            Grower chickens (4-6 weeks)</a></li>
+                    <li><a href="/products/laying-hens" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
                             <svg class="w-3 h-3 mr-2 text-[#f5d118]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path></svg>
-                            KARI Improved</a></li>
-                    <li><a href="/products/white-leghorn" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
+                            Mature laying hens</a></li>
+                    <li><a href="/products/breeding-stock" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
                             <svg class="w-3 h-3 mr-2 text-[#f5d118]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path></svg>
-                            White Leghorn</a></li>
-                    <li><a href="/products/duck-breeds" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
+                            Breeding cocks and hens</a></li>
+                    <li><a href="/products/kienyeji-chickens" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
                             <svg class="w-3 h-3 mr-2 text-[#f5d118]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path></svg>
-                            Duck Breeds</a></li>
-                    <li><a href="/products/turkey-farming" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
+                            Indigenous (kienyeji) chickens</a></li>
+                    <li><a href="/products/broiler-chickens" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
                             <svg class="w-3 h-3 mr-2 text-[#f5d118]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path></svg>
-                            Turkey Farming</a></li>
+                            Broiler chickens</a></li>
+                    <li><a href="/products/other-poultry" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
+                            <svg class="w-3 h-3 mr-2 text-[#f5d118]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path></svg>
+                            Other poultry (ducks, turkeys)</a></li>
+                    <li><a href="/products/fresh-eggs" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
+                            <svg class="w-3 h-3 mr-2 text-[#f5d118]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path></svg>
+                            Fresh table eggs</a></li>
                     <li><a href="/products/hatching-eggs" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
                             <svg class="w-3 h-3 mr-2 text-[#f5d118]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path></svg>
-                            Hatching Eggs</a></li>
+                            Fertile hatching eggs</a></li>
+                    <li><a href="/products/chicken-meat" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
+                            <svg class="w-3 h-3 mr-2 text-[#f5d118]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path></svg>
+                            Fresh chicken meat</a></li>
+                    <li><a href="/products/chicken-manure" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
+                            <svg class="w-3 h-3 mr-2 text-[#f5d118]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path></svg>
+                            Chicken manure (organic fertilizer)</a></li>
                 </ul>
             </div>
 
@@ -356,24 +369,27 @@
             <div>
                 <h3 class="text-lg font-bold text-[#f5d118] mb-4 border-b border-[#f5d118] pb-2">Our Services</h3>
                 <ul class="space-y-2">
-                    <li><a href="/services/incubation" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
+                    <li><a href="/services/poultry-housing" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
                             <svg class="w-3 h-3 mr-2 text-[#f5d118]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path></svg>
-                            Incubation Service</a></li>
-                    <li><a href="/services/training" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
-                            <svg class="w-3 h-3 mr-2 text-[#f5d118]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path></svg>
-                            Farmers Training</a></li>
+                            Poultry housing construction</a></li>
                     <li><a href="/services/vaccination" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
                             <svg class="w-3 h-3 mr-2 text-[#f5d118]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path></svg>
-                            Vaccination Services</a></li>
-                    <li><a href="/services/farm-visit" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
+                            Vaccination & health management</a></li>
+                    <li><a href="/services/training" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
                             <svg class="w-3 h-3 mr-2 text-[#f5d118]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path></svg>
-                            Farm Visit</a></li>
-                    <li><a href="/services/after-sale" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
+                            Poultry farming training</a></li>
+                    <li><a href="/services/bulk-supply" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
                             <svg class="w-3 h-3 mr-2 text-[#f5d118]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path></svg>
-                            After-sale Services</a></li>
-                    <li><a href="/services/consulting" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
+                            Bulk supply to farmers & institutions</a></li>
+                    <li><a href="/services/delivery" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
                             <svg class="w-3 h-3 mr-2 text-[#f5d118]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path></svg>
-                            Consulting Services</a></li>
+                            Delivery services</a></li>
+                    <li><a href="/services/equipment" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
+                            <svg class="w-3 h-3 mr-2 text-[#f5d118]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path></svg>
+                            Poultry equipment & accessories</a></li>
+                    <li><a href="/services/feeds-supplements" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
+                            <svg class="w-3 h-3 mr-2 text-[#f5d118]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path></svg>
+                            Starter feeds & supplements</a></li>
                 </ul>
             </div>
 
@@ -418,7 +434,7 @@
         <!-- Copyright Section -->
         <div class="border-t border-gray-800 pt-6 flex flex-col md:flex-row justify-between items-center">
             <p class="text-xs text-gray-400 mb-3 md:mb-0">
-                Copyright © <span id="year"></span> Eggcellent Kienyeji Chicken Poultry. All rights reserved.
+                Copyright © <span id="year"></span> Danbest Poultry Farm. All rights reserved.
             </p>
             <div class="flex space-x-4 mb-3 md:mb-0">
                 <a href="/" class="text-xs text-gray-400 hover:text-[#f5d118] transition-colors">Privacy Policy</a>
