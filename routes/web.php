@@ -8,4 +8,11 @@ Route::get('/', function () {
 Route::get('/about-us', function () {
     return view('about-us');
 });
+Route::get('/blog', function () {
+    return view('blog');
+});
+Route::get('/faqs', function () {
+    return view('faqs');
+});
+
 
