@@ -322,7 +322,7 @@
     <section class="py-16 bg-[#f5d118]">
         <div class="container mx-auto px-6 text-center">
             <h2 class="text-3xl md:text-4xl font-bold text-[#1b3c4d] mb-4">Get in Touch</h2>
-            <p class="text-xl text-[#1b3c4d] mb-8 max-w-2xl mx-auto">
+            <p class="text-xl text-[#1b3c4d] mb-8 max-w-8xl mx-auto">
                 Have questions or want to learn more about our poultry farm? Reach out to us today!
             </p>
 
