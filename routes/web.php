@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ContactController;
 use App\Http\Controllers\SitemapController;
 use Illuminate\Support\Facades\Route;
 
@@ -21,7 +22,7 @@ Route::get('/faqs', function () {
 Route::get('/contact-us', function () {
     return view('contact-us');
 });
- #Route::post('/send-message', [ContactController::class, 'sendMail'])->name('send.message');
+Route::post('/send-message', [ContactController::class, 'sendMail'])->name('send.message');
 
 Route::get('/sitemap.xml', [SitemapController::class, 'index']);
 Route::get('/robots.txt', [SitemapController::class, 'generateRobotsFile']);
