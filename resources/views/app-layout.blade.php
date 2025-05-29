@@ -432,12 +432,31 @@
             <div>
                 <h3 class="text-lg font-bold text-[#f5d118] mb-3">Newsletter</h3>
                 <p class="text-xs text-gray-300 mb-3">Subscribe for poultry tips & offers</p>
-                <form class="flex">
-                    <input type="email" placeholder="Your email" class="px-3 py-2 text-xs text-gray-900 bg-white w-full rounded-l focus:outline-none focus:ring-2 focus:ring-[#f5d118]">
-                    <button type="submit" class="bg-[#f5d118] text-black px-4 py-2 text-xs font-bold rounded-r hover:bg-yellow-600 transition-colors focus:outline-none focus:ring-2 focus:ring-black">
+                <form method="POST" action="{{ route('newsletter.subscribe') }}" class="flex">
+                    @csrf
+                    <input
+                        type="email"
+                        name="email"
+                        required
+                        placeholder="Your email"
+                        class="px-3 py-2 text-xs text-gray-900 bg-white w-full rounded-l focus:outline-none focus:ring-2 focus:ring-[#f5d118]"
+                    >
+                    <button
+                        type="submit"
+                        class="bg-[#f5d118] text-black px-4 py-2 text-xs font-bold rounded-r hover:bg-yellow-600 transition-colors focus:outline-none focus:ring-2 focus:ring-black"
+                    >
                         Subscribe
                     </button>
                 </form>
+
+                @error('email')
+                <span class="text-red-500 text-xs mt-1 block">{{ $message }}</span>
+                @enderror
+
+                @if(session('success'))
+                    <div class="text-green-600 text-xs mt-2">{{ session('success') }}</div>
+                @endif
+
             </div>
 
 
