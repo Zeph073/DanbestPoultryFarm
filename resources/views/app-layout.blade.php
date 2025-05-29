@@ -455,7 +455,7 @@
             </div>
             <div class="text-xs text-gray-400">
                 Powered By
-                <a href="https://revoswifttech.coke" target="_blank" rel="noopener noreferrer" class="hover:text-[#f5d118] transition-colors font-semibold">
+                <a href="https://revoswifttech.co.ke" target="_blank" rel="noopener noreferrer" class="hover:text-[#f5d118] transition-colors font-semibold">
                     RevoSwift Technologies
                 </a>
             </div>
