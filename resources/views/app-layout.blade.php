@@ -46,37 +46,37 @@
                     </button>
                     <div class="absolute left-0 mt-2 w-64 origin-top-left rounded-md shadow-lg bg-black border border-[#f5d118] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
                         <div class="py-1">
-                            <a href="/products/live-chicks" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
+                            <a href="/live-day-old-chicks" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
                                 <i class="fas fa-chevron-right mr-2 text-xs"></i> Live Day-Old Chicks
                             </a>
-                            <a href="/products/grower-chickens" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
+                            <a href=/grower-chickens" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
                                 <i class="fas fa-chevron-right mr-2 text-xs"></i> Grower Chickens (4-6 weeks)
                             </a>
-                            <a href="/products/laying-hens" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
+                            <a href="/mature-laying-hens" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
                                 <i class="fas fa-chevron-right mr-2 text-xs"></i> Mature Laying Hens
                             </a>
-                            <a href="/products/breeding-stock" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
+                            <a href="/breeding-stock" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
                                 <i class="fas fa-chevron-right mr-2 text-xs"></i> Breeding Cocks & Hens
                             </a>
-                            <a href="/products/kienyeji-chickens" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
+                            <a href="/indigenous-kienyeji-chickens" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
                                 <i class="fas fa-chevron-right mr-2 text-xs"></i> Indigenous (Kienyeji)
                             </a>
-                            <a href="/products/broiler-chickens" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
+                            <a href="/broiler-chickens" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
                                 <i class="fas fa-chevron-right mr-2 text-xs"></i> Broiler Chickens
                             </a>
-                            <a href="/products/other-poultry" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
+                            <a href="/other-poultry" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
                                 <i class="fas fa-chevron-right mr-2 text-xs"></i> Other Poultry (Ducks, Turkeys)
                             </a>
-                            <a href="/products/fresh-eggs" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
+                            <a href="/fresh-table-eggs" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
                                 <i class="fas fa-chevron-right mr-2 text-xs"></i> Fresh Table Eggs
                             </a>
-                            <a href="/products/hatching-eggs" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
+                            <a href="/fertile-hatching-eggs" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
                                 <i class="fas fa-chevron-right mr-2 text-xs"></i> Fertile Hatching Eggs
                             </a>
-                            <a href="/products/chicken-meat" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
+                            <a href="/fresh-chicken-meat" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
                                 <i class="fas fa-chevron-right mr-2 text-xs"></i> Fresh Chicken Meat
                             </a>
-                            <a href="/products/chicken-manure" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
+                            <a href="/chicken-manure" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
                                 <i class="fas fa-chevron-right mr-2 text-xs"></i> Chicken Manure
                             </a>
                         </div>
@@ -91,28 +91,25 @@
                     </button>
                     <div class="absolute left-0 mt-2 w-72 origin-top-left rounded-md shadow-lg bg-black border border-[#f5d118] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
                         <div class="py-1">
-                            <a href="/services/poultry-housing" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
+                            <a href="/poultry-housing-construction" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
                                 <i class="fas fa-chevron-right mr-2 text-xs"></i> Poultry Housing Construction
                             </a>
-                            <a href="/services/vaccination" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
+                            <a href="/vaccination-health" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
                                 <i class="fas fa-chevron-right mr-2 text-xs"></i> Vaccination & Health Management
                             </a>
-                            <a href="/services/training" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
+                            <a href="/poultry-training" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
                                 <i class="fas fa-chevron-right mr-2 text-xs"></i> Poultry Farming Training
                             </a>
-                            <a href="/services/bulk-supply" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
+                            <a href="/bulk-supply" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
                                 <i class="fas fa-chevron-right mr-2 text-xs"></i> Bulk Supply to Farmers
                             </a>
-                            <a href="/services/delivery" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
+                            <a href="/delivery-services" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
                                 <i class="fas fa-chevron-right mr-2 text-xs"></i> Delivery Services
                             </a>
-                            <a href="/services/equipment" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
-                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Poultry Equipment
-                            </a>
-                            <a href="/services/feeds-supplements" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
+                            <a href="/feeds-supplements" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
                                 <i class="fas fa-chevron-right mr-2 text-xs"></i> Starter Feeds & Supplements
                             </a>
-                            <a href="/services/consulting" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
+                            <a href="/farming-consultancy" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
                                 <i class="fas fa-chevron-right mr-2 text-xs"></i> Farming Consultancy
                             </a>
                         </div>
@@ -341,37 +338,37 @@
             <div>
                 <h3 class="text-lg font-bold text-[#f5d118] mb-4 border-b border-[#f5d118] pb-2">Our Products</h3>
                 <ul class="space-y-2">
-                    <li><a href="/products/live-chicks" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
+                    <li><a href="/live-day-Old-chicks" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
                             <svg class="w-3 h-3 mr-2 text-[#f5d118]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path></svg>
                             Live day-old chicks</a></li>
-                    <li><a href="/products/grower-chickens" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
+                    <li><a href="/grower-chickens" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
                             <svg class="w-3 h-3 mr-2 text-[#f5d118]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path></svg>
                             Grower chickens (4-6 weeks)</a></li>
-                    <li><a href="/products/laying-hens" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
+                    <li><a href="/mature-laying-hens" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
                             <svg class="w-3 h-3 mr-2 text-[#f5d118]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path></svg>
                             Mature laying hens</a></li>
-                    <li><a href="/products/breeding-stock" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
+                    <li><a href="/breeding-stock" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
                             <svg class="w-3 h-3 mr-2 text-[#f5d118]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path></svg>
                             Breeding cocks and hens</a></li>
-                    <li><a href="/products/kienyeji-chickens" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
+                    <li><a href="/indigenous-kienyeji-chickens" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
                             <svg class="w-3 h-3 mr-2 text-[#f5d118]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path></svg>
                             Indigenous (kienyeji) chickens</a></li>
-                    <li><a href="/products/broiler-chickens" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
+                    <li><a href="/broiler-chickens" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
                             <svg class="w-3 h-3 mr-2 text-[#f5d118]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path></svg>
                             Broiler chickens</a></li>
-                    <li><a href="/products/other-poultry" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
+                    <li><a href="/other-poultry" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
                             <svg class="w-3 h-3 mr-2 text-[#f5d118]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path></svg>
                             Other poultry (ducks, turkeys)</a></li>
-                    <li><a href="/products/fresh-eggs" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
+                    <li><a href="/fresh-table-eggs" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
                             <svg class="w-3 h-3 mr-2 text-[#f5d118]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path></svg>
                             Fresh table eggs</a></li>
-                    <li><a href="/products/hatching-eggs" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
+                    <li><a href="/fertile-hatching-eggs" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
                             <svg class="w-3 h-3 mr-2 text-[#f5d118]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path></svg>
                             Fertile hatching eggs</a></li>
-                    <li><a href="/products/chicken-meat" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
+                    <li><a href="/fresh-chicken-meat" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
                             <svg class="w-3 h-3 mr-2 text-[#f5d118]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path></svg>
                             Fresh chicken meat</a></li>
-                    <li><a href="/products/chicken-manure" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
+                    <li><a href="/chicken-manure" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
                             <svg class="w-3 h-3 mr-2 text-[#f5d118]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path></svg>
                             Chicken manure (organic fertilizer)</a></li>
                 </ul>
@@ -381,25 +378,25 @@
             <div>
                 <h3 class="text-lg font-bold text-[#f5d118] mb-4 border-b border-[#f5d118] pb-2">Our Services</h3>
                 <ul class="space-y-2">
-                    <li><a href="/services/poultry-housing" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
+                    <li><a href="/poultry-housing-construction" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
                             <svg class="w-3 h-3 mr-2 text-[#f5d118]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path></svg>
                             Poultry housing construction</a></li>
-                    <li><a href="/services/vaccination" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
+                    <li><a href="/vaccination-health" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
                             <svg class="w-3 h-3 mr-2 text-[#f5d118]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path></svg>
                             Vaccination & health management</a></li>
-                    <li><a href="/services/training" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
+                    <li><a href="/poultry-training" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
                             <svg class="w-3 h-3 mr-2 text-[#f5d118]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path></svg>
                             Poultry farming training</a></li>
-                    <li><a href="/services/bulk-supply" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
+                    <li><a href="/bulk-supply" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
                             <svg class="w-3 h-3 mr-2 text-[#f5d118]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path></svg>
                             Bulk supply to farmers & institutions</a></li>
-                    <li><a href="/services/delivery" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
+                    <li><a href="/delivery-services" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
                             <svg class="w-3 h-3 mr-2 text-[#f5d118]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path></svg>
                             Delivery services</a></li>
-                    <li><a href="/services/equipment" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
+                    <li><a href="/equipment-accessories" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
                             <svg class="w-3 h-3 mr-2 text-[#f5d118]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path></svg>
                             Poultry equipment & accessories</a></li>
-                    <li><a href="/services/feeds-supplements" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
+                    <li><a href="/feeds-supplements" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
                             <svg class="w-3 h-3 mr-2 text-[#f5d118]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path></svg>
                             Starter feeds & supplements</a></li>
                 </ul>
