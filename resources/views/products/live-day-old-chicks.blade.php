@@ -68,7 +68,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="/products/kienyeji-chickens" class="flex items-center p-2 hover:bg-[#f5d118] hover:bg-opacity-10 rounded-lg group">
+                                <a href="/indigenous-kienyeji-chickens" class="flex items-center p-2 hover:bg-[#f5d118] hover:bg-opacity-10 rounded-lg group">
                                     <div class="w-8 h-8 border border-[#1b3c4d] rounded-full flex items-center justify-center mr-3">
                                         <svg class="w-3 h-3 text-[#1b3c4d] group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path></svg>
                                     </div>
@@ -128,12 +128,11 @@
                 </div>
 
                 <!-- Main Product Content -->
-                <!-- Main Content -->
                 <div class="lg:w-3/4 mx-auto">
                     <div class="bg-white rounded-lg shadow-md overflow-hidden">
                         <!-- Header -->
                         <div class="bg-[#1b3c4d] text-white p-6">
-                            <h1 class="text-2xl md:text-3xl font-bold mb-2">Welcome to Danbest Poultry Farm</h1>
+                            <h1 class="text-2xl md:text-3xl font-bold mb-2">Live Day-Old Chicks at <span class="text-[#f5d118]">DANBEST Poultry Farm</span></h1>
                             <div class="flex flex-col md:flex-row md:items-center md:justify-between">
                                 <div class="flex items-center mb-2 md:mb-0">
                                     <svg class="w-5 h-5 text-[#f5d118] mr-1" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
@@ -151,24 +150,25 @@
                             <div class="flex flex-col lg:flex-row gap-8">
                                 <!-- Image Gallery -->
                                 <div class="lg:w-1/2">
-                                    <div class="relative rounded-lg overflow-hidden mb-4 h-64 bg-gray-100 flex items-center justify-center">
-                                        <img id="mainImage" src="{{ asset('images/') }}" alt="Poultry farming" class="w-full h-full object-cover">
+                                    <div class="relative rounded-lg overflow-hidden mb-4 h-80 bg-gray-100 flex items-center justify-center">
+                                        <img id="mainImage" src="https://www.idealpoultry.com/assets/breedimages/breed_1423_s.jpg" alt="Poultry farming" class="w-full h-full object-cover">
                                     </div>
                                     <div class="grid grid-cols-4 gap-2">
-                                        <div class="h-16 bg-gray-200 rounded-md overflow-hidden cursor-pointer border-2 border-transparent hover:border-[#f5d118]" onclick="changeImage('/images/chicks-1.jpg')">
-                                            <img src="{{ asset('images/') }}" alt="Chicks thumbnail 1" class="w-full h-full object-cover">
+                                        <div class="h-40 bg-gray-200 rounded-md overflow-hidden cursor-pointer border-2 border-transparent hover:border-[#f5d118]" onclick="changeImage('https://www.idealpoultry.com/assets/breedimages/breed_1425_s.jpg')">
+                                            <img src="https://www.idealpoultry.com/assets/breedimages/breed_1425_s.jpg" alt="Chicks thumbnail 1" class="w-full h-full object-cover">
                                         </div>
-                                        <div class="h-16 bg-gray-200 rounded-md overflow-hidden cursor-pointer border-2 border-transparent hover:border-[#f5d118]" onclick="changeImage('/images/chicks-2.jpg')">
-                                            <img src="{{ asset('images/') }}" alt="Chicks thumbnail 2" class="w-full h-full object-cover">
+                                        <div class="h-40 bg-gray-200 rounded-md overflow-hidden cursor-pointer border-2 border-transparent hover:border-[#f5d118]" onclick="changeImage('https://www.idealpoultry.com/assets/breedimages/breed_1427_s.jpg')">
+                                            <img src="https://www.idealpoultry.com/assets/breedimages/breed_1427_s.jpg" alt="Chicks thumbnail 2" class="w-full h-full object-cover">
                                         </div>
-                                        <div class="h-16 bg-gray-200 rounded-md overflow-hidden cursor-pointer border-2 border-transparent hover:border-[#f5d118]" onclick="changeImage('/images/chicks-3.jpg')">
-                                            <img src="{{ asset('images/') }}" alt="Chicks thumbnail 3" class="w-full h-full object-cover">
+                                        <div class="h-40 bg-gray-200 rounded-md overflow-hidden cursor-pointer border-2 border-transparent hover:border-[#f5d118]" onclick="changeImage('https://www.idealpoultry.com/assets/breedimages/breed_1495_s.jpg')">
+                                            <img src="https://www.idealpoultry.com/assets/breedimages/breed_1495_s.jpg" alt="Chicks thumbnail 3" class="w-full h-full object-cover">
                                         </div>
-                                        <div class="h-16 bg-gray-200 rounded-md overflow-hidden cursor-pointer border-2 border-transparent hover:border-[#f5d118]" onclick="changeImage('/images/chicks-4.jpg')">
-                                            <img src="{{ asset('images/') }}" alt="Chicks thumbnail 4" class="w-full h-full object-cover">
+                                        <div class="h-40 bg-gray-200 rounded-md overflow-hidden cursor-pointer border-2 border-transparent hover:border-[#f5d118]" onclick="changeImage('https://www.idealpoultry.com/assets/breedimages/breed_1431_s.jpg')">
+                                            <img src="https://www.idealpoultry.com/assets/breedimages/breed_1431_s.jpg" alt="Chicks thumbnail 4" class="w-full h-full object-cover">
                                         </div>
                                     </div>
                                 </div>
+
 
                                 <!-- About & Services -->
                                 <div class="lg:w-1/2">

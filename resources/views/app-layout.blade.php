@@ -49,7 +49,7 @@
                             <a href="/live-day-old-chicks" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
                                 <i class="fas fa-chevron-right mr-2 text-xs"></i> Live Day-Old Chicks
                             </a>
-                            <a href=/grower-chickens" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
+                            <a href="/grower-chickens" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
                                 <i class="fas fa-chevron-right mr-2 text-xs"></i> Grower Chickens (4-6 weeks)
                             </a>
                             <a href="/mature-laying-hens" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
