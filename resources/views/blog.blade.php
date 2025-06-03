@@ -19,8 +19,8 @@
     </section>
 
     <!-- Blog Content -->
-    <section class="py-16 bg-white">
-        <div class="container mx-auto px-6 max-w-6xl">
+    <section class="py-16 bg-white px-6">
+        <div class="">
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
                 <!-- Main Content -->
                 <div class="lg:col-span-2">
@@ -28,7 +28,7 @@
                     <div class="mb-12">
                         <div class="relative rounded-xl overflow-hidden h-80 mb-6">
                             <div class="w-full h-full bg-gray-200 flex items-center justify-center">
-                                <span class="text-gray-500">Featured Blog Post Image</span>
+                                <img src="{{ asset('images/heros-image.png') }}" alt="Featured Blog Post Image" class="w-full h-full object-cover" />
                             </div>
                             <div class="absolute bottom-0 left-0 bg-[#f5d118] text-black font-bold py-2 px-4 rounded-tr-xl">
                                 Featured
@@ -43,7 +43,7 @@
                         <p class="text-gray-700 mb-4">
                             It's never too late to begin your poultry journey. Many successful farmers started with just a few chicks and a dream. Use what you have, learn as you go, and watch your small beginning grow into something great. Start now—the best time is today.
                         </p>
-                        <a href="/blog/start-small-start-now" class="inline-flex items-center text-[#1b3c4d] font-medium hover:text-[#f5d118] transition">
+                        <a href="#" class="inline-flex items-center text-[#1b3c4d] font-medium hover:text-[#f5d118] transition">
                             Read More
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1" viewBox="0 0 20 20" fill="currentColor">
                                 <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
@@ -55,8 +55,8 @@
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                         <!-- Post 1 -->
                         <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition duration-300">
-                            <div class="h-48 bg-gray-200 flex items-center justify-center">
-                                <span class="text-gray-500">Blog Post Image</span>
+                            <div class="h-80 bg-gray-200 flex items-center justify-center">
+                                <img src="{{ asset('https://images.unsplash.com/photo-1542189800-ffe910d48d28?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') }}" alt="Featured Blog Post Image" class="w-full h-full object-cover" />
                             </div>
                             <div class="p-6">
                                 <div class="flex items-center text-gray-500 mb-3">
@@ -68,7 +68,7 @@
                                 <p class="text-gray-600 mb-4">
                                     Getting ready for a successful hatch starts with preparation. From selecting quality eggs to setting the right conditions, here's your step-by-step guide.
                                 </p>
-                                <a href="/blog/incubation-season-prep" class="inline-flex items-center text-[#1b3c4d] font-medium hover:text-[#f5d118] transition">
+                                <a href="#" class="inline-flex items-center text-[#1b3c4d] font-medium hover:text-[#f5d118] transition">
                                     Read More
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1" viewBox="0 0 20 20" fill="currentColor">
                                         <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
@@ -79,8 +79,9 @@
 
                         <!-- Post 2 -->
                         <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition duration-300">
-                            <div class="h-48 bg-gray-200 flex items-center justify-center">
-                                <span class="text-gray-500">Blog Post Image</span>
+                            <div class="h-80 bg-gray-200 flex items-center justify-center">
+                                <img src="{{ asset('images/day-old.png') }}" alt="Featured Blog Post Image" class="w-full h-full object-cover" />
+
                             </div>
                             <div class="p-6">
                                 <div class="flex items-center text-gray-500 mb-3">
@@ -92,7 +93,7 @@
                                 <p class="text-gray-600 mb-4">
                                     Raising chicks requires more than just feeding. Learn the top mistakes new farmers make and how to prevent losses early on.
                                 </p>
-                                <a href="/blog/chick-care-mistakes" class="inline-flex items-center text-[#1b3c4d] font-medium hover:text-[#f5d118] transition">
+                                <a href="#" class="inline-flex items-center text-[#1b3c4d] font-medium hover:text-[#f5d118] transition">
                                     Read More
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1" viewBox="0 0 20 20" fill="currentColor">
                                         <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
@@ -103,8 +104,8 @@
 
                         <!-- Post 3 -->
                         <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition duration-300">
-                            <div class="h-48 bg-gray-200 flex items-center justify-center">
-                                <span class="text-gray-500">Blog Post Image</span>
+                            <div class="h-80 bg-gray-200 flex items-center justify-center">
+                                <img src="{{ asset('https://images.unsplash.com/photo-1666204423852-fc806409f9b3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') }}" alt="Featured Blog Post Image" class="w-full h-full object-cover" />
                             </div>
                             <div class="p-6">
                                 <div class="flex items-center text-gray-500 mb-3">
@@ -116,7 +117,7 @@
                                 <p class="text-gray-600 mb-4">
                                     Vaccination protects your flock from deadly diseases. Discover why timely vaccination is essential and how to follow a simple schedule.
                                 </p>
-                                <a href="/blog/poultry-vaccination" class="inline-flex items-center text-[#1b3c4d] font-medium hover:text-[#f5d118] transition">
+                                <a href="#" class="inline-flex items-center text-[#1b3c4d] font-medium hover:text-[#f5d118] transition">
                                     Read More
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1" viewBox="0 0 20 20" fill="currentColor">
                                         <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
@@ -127,8 +128,8 @@
 
                         <!-- Post 4 -->
                         <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition duration-300">
-                            <div class="h-48 bg-gray-200 flex items-center justify-center">
-                                <span class="text-gray-500">Blog Post Image</span>
+                            <div class="h-80 bg-gray-200 flex items-center justify-center">
+                                <img src="{{ asset('https://images.unsplash.com/photo-1441122456239-401e92b73c65?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') }}" alt="Featured Blog Post Image" class="w-full h-full object-cover" />
                             </div>
                             <div class="p-6">
                                 <div class="flex items-center text-gray-500 mb-3">
@@ -140,7 +141,7 @@
                                 <p class="text-gray-600 mb-4">
                                     Ever wondered what goes on behind the scenes? Take a virtual tour of our incubation, hatching, and delivery process at Danbest Poultry Farm.
                                 </p>
-                                <a href="/blog/day-on-the-farm" class="inline-flex items-center text-[#1b3c4d] font-medium hover:text-[#f5d118] transition">
+                                <a href="#" class="inline-flex items-center text-[#1b3c4d] font-medium hover:text-[#f5d118] transition">
                                     Read More
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1" viewBox="0 0 20 20" fill="currentColor">
                                         <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
@@ -204,10 +205,10 @@
                         </div>
                         <div class="p-6">
                             <div class="space-y-4">
-                                <a href="/blog/farmer-spotlight" class="group flex items-start">
+                                <a href="#" class="group flex items-start">
                                     <div class="flex-shrink-0 w-16 h-16 bg-gray-200 rounded-lg overflow-hidden mr-4">
                                         <div class="w-full h-full flex items-center justify-center">
-                                            <span class="text-xs text-gray-500">Image</span>
+                                            <img src="{{ asset('https://images.unsplash.com/photo-1542189800-ffe910d48d28?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') }}" alt="Featured Blog Post Image" class="w-full h-full object-cover" />
                                         </div>
                                     </div>
                                     <div>
@@ -215,10 +216,10 @@
                                         <p class="text-sm text-gray-500">February 18, 2025</p>
                                     </div>
                                 </a>
-                                <a href="/blog/chick-care-mistakes" class="group flex items-start">
+                                <a href="#" class="group flex items-start">
                                     <div class="flex-shrink-0 w-16 h-16 bg-gray-200 rounded-lg overflow-hidden mr-4">
                                         <div class="w-full h-full flex items-center justify-center">
-                                            <span class="text-xs text-gray-500">Image</span>
+                                            <img src="{{ asset('images/day-old.png') }}" alt="Featured Blog Post Image" class="w-full h-full object-cover" />
                                         </div>
                                     </div>
                                     <div>
@@ -226,10 +227,10 @@
                                         <p class="text-sm text-gray-500">April 2, 2025</p>
                                     </div>
                                 </a>
-                                <a href="/blog/poultry-vaccination" class="group flex items-start">
+                                <a href="#" class="group flex items-start">
                                     <div class="flex-shrink-0 w-16 h-16 bg-gray-200 rounded-lg overflow-hidden mr-4">
                                         <div class="w-full h-full flex items-center justify-center">
-                                            <span class="text-xs text-gray-500">Image</span>
+                                            <img src="{{ asset('https://images.unsplash.com/photo-1666204423852-fc806409f9b3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') }}" alt="Featured Blog Post Image" class="w-full h-full object-cover" />
                                         </div>
                                     </div>
                                     <div>
@@ -249,31 +250,31 @@
                         <div class="p-6">
                             <ul class="space-y-2">
                                 <li>
-                                    <a href="/blog/category/chick-care" class="flex justify-between items-center text-[#1b3c4d] hover:text-[#f5d118] transition">
+                                    <a href="#" class="flex justify-between items-center text-[#1b3c4d] hover:text-[#f5d118] transition">
                                         <span>Chick Care</span>
                                         <span class="bg-[#f5d118] text-[#1b3c4d] text-xs font-bold px-2 py-1 rounded-full">12</span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/blog/category/incubation" class="flex justify-between items-center text-[#1b3c4d] hover:text-[#f5d118] transition">
+                                    <a href="#" class="flex justify-between items-center text-[#1b3c4d] hover:text-[#f5d118] transition">
                                         <span>Incubation</span>
                                         <span class="bg-[#f5d118] text-[#1b3c4d] text-xs font-bold px-2 py-1 rounded-full">8</span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/blog/category/health" class="flex justify-between items-center text-[#1b3c4d] hover:text-[#f5d118] transition">
+                                    <a href="#" class="flex justify-between items-center text-[#1b3c4d] hover:text-[#f5d118] transition">
                                         <span>Health & Vaccination</span>
                                         <span class="bg-[#f5d118] text-[#1b3c4d] text-xs font-bold px-2 py-1 rounded-full">15</span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/blog/category/business" class="flex justify-between items-center text-[#1b3c4d] hover:text-[#f5d118] transition">
+                                    <a href="#" class="flex justify-between items-center text-[#1b3c4d] hover:text-[#f5d118] transition">
                                         <span>Poultry Business</span>
                                         <span class="bg-[#f5d118] text-[#1b3c4d] text-xs font-bold px-2 py-1 rounded-full">6</span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/blog/category/success-stories" class="flex justify-between items-center text-[#1b3c4d] hover:text-[#f5d118] transition">
+                                    <a href="#" class="flex justify-between items-center text-[#1b3c4d] hover:text-[#f5d118] transition">
                                         <span>Success Stories</span>
                                         <span class="bg-[#f5d118] text-[#1b3c4d] text-xs font-bold px-2 py-1 rounded-full">4</span>
                                     </a>
@@ -288,17 +289,31 @@
 
     <!-- Newsletter Section -->
     <section class="py-16 bg-[#f5d118]">
-        <div class="container mx-auto px-6 text-center max-w-4xl">
-            <h2 class="text-3xl font-bold text-[#1b3c4d] mb-4">Stay Updated</h2>
-            <p class="text-xl text-[#1b3c4d] mb-8">Subscribe to our newsletter for the latest poultry farming tips and updates</p>
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-4xl font-bold text-[#1b3c4d] mb-4">Get in Touch With Us</h2>
+            <p class="text-lg text-[#1b3c4d] mb-8">
+                At <strong>Danbest Poultry Farm</strong>, we're committed to providing top-quality poultry products and expert farming advice.
+                Whether you're a seasoned farmer or just starting out, our team is here to support your journey. Reach out to us today—we'd love to hear from you!
+            </p>
 
-            <form class="max-w-md mx-auto flex flex-col sm:flex-row gap-4">
-                <input type="email" placeholder="Your email address" class="flex-grow px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#1b3c4d]">
-                <button type="submit" class="bg-[#1b3c4d] hover:bg-black text-white font-bold py-3 px-6 rounded-lg transition duration-300">
-                    Subscribe
-                </button>
-            </form>
+            <div class="flex flex-col sm:flex-row justify-center items-center gap-6 text-[#1b3c4d] text-lg font-semibold">
+                <!-- WhatsApp -->
+                <a href="https://wa.me/254721577451" target="_blank" class="flex items-center gap-2 hover:underline">
+                    <i class="fab fa-whatsapp text-2xl"></i> WhatsApp: 0721 577 451
+                </a>
+
+                <!-- Contact Us -->
+                <a href="/contact-us" class="flex items-center gap-2 hover:underline">
+                    <i class="fas fa-envelope text-2xl"></i> Contact Us
+                </a>
+
+                <!-- Call Us -->
+                <div class="flex items-center gap-2">
+                    <i class="fas fa-phone-alt text-2xl"></i> Call Us: 0721 577 451
+                </div>
+            </div>
         </div>
     </section>
+
 
 @endsection

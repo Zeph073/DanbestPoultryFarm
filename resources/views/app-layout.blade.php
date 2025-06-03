@@ -430,7 +430,7 @@
 
             <!-- Newsletter -->
             <div>
-                <h3 class="text-lg font-bold text-[#f5d118] mb-3">Newsletter</h3>
+                <h3 class="text-lg font-bold text-[#f5d118] mb-4 border-b border-[#f5d118] pb-2">Newsletter</h3>
                 <p class="text-xs text-gray-300 mb-3">Subscribe for poultry tips & offers</p>
                 <form method="POST" action="{{ route('newsletter.subscribe') }}" class="flex">
                     @csrf
