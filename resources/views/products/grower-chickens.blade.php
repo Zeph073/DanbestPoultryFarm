@@ -150,21 +150,21 @@
                             <div class="flex flex-col lg:flex-row gap-8">
                                 <!-- Image Gallery -->
                                 <div class="lg:w-1/2">
-                                    <div class="relative rounded-lg overflow-hidden mb-4 h-64 bg-gray-100 flex items-center justify-center">
-                                        <img id="mainImage" src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=600&q=80" alt="Grower chickens" class="w-full h-full object-cover">
+                                    <div class="relative rounded-lg overflow-hidden mb-4 h-90 bg-gray-100 flex items-center justify-center">
+                                        <img id="mainImage" src="https://willowcreekfarm.wordpress.com/wp-content/uploads/2020/02/b5.jpg" alt="Grower chickens" class="w-full h-full object-cover">
                                     </div>
                                     <div class="grid grid-cols-4 gap-2">
-                                        <div class="h-16 bg-gray-200 rounded-md overflow-hidden cursor-pointer border-2 border-transparent hover:border-[#f5d118]" onclick="changeImage('https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=600&q=80')">
-                                            <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=600&q=80" alt="Grower chicken thumbnail 1" class="w-full h-full object-cover">
+                                        <div class="h-40 bg-gray-200 rounded-md overflow-hidden cursor-pointer border-2 border-transparent hover:border-[#f5d118]" onclick="changeImage('https://willowcreekfarm.wordpress.com/wp-content/uploads/2020/02/a6.jpg')">
+                                            <img src="https://willowcreekfarm.wordpress.com/wp-content/uploads/2020/02/a6.jpg" alt="Grower chicken thumbnail 1" class="w-full h-full object-cover">
                                         </div>
-                                        <div class="h-16 bg-gray-200 rounded-md overflow-hidden cursor-pointer border-2 border-transparent hover:border-[#f5d118]" onclick="changeImage('https://images.unsplash.com/photo-1518717758536-85ae29035b6d?auto=format&fit=crop&w=600&q=80')">
-                                            <img src="https://images.unsplash.com/photo-1518717758536-85ae29035b6d?auto=format&fit=crop&w=600&q=80" alt="Grower chicken thumbnail 2" class="w-full h-full object-cover">
+                                        <div class="h-40 bg-gray-200 rounded-md overflow-hidden cursor-pointer border-2 border-transparent hover:border-[#f5d118]" onclick="changeImage('https://i.redd.it/im-starting-to-suspect-my-black-mystery-chicks-are-minorcas-v0-1g72dbto5qra1.jpg?width=3024&format=pjpg&auto=webp&s=efbf7fa613752f9205cf6b11bc5af03d6404039a')">
+                                            <img src="https://i.redd.it/im-starting-to-suspect-my-black-mystery-chicks-are-minorcas-v0-1g72dbto5qra1.jpg?width=3024&format=pjpg&auto=webp&s=efbf7fa613752f9205cf6b11bc5af03d6404039a" alt="Grower chicken thumbnail 2" class="w-full h-full object-cover">
                                         </div>
-                                        <div class="h-16 bg-gray-200 rounded-md overflow-hidden cursor-pointer border-2 border-transparent hover:border-[#f5d118]" onclick="changeImage('https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=80')">
-                                            <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=80" alt="Grower chicken thumbnail 3" class="w-full h-full object-cover">
+                                        <div class="h-40 bg-gray-200 rounded-md overflow-hidden cursor-pointer border-2 border-transparent hover:border-[#f5d118]" onclick="changeImage('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAaHlgZJ8RGMNlKoLtfDwzRDDmSYGhN90JbMDxC25HFpu1-c5ZWX5aqK8Im3bo5-Rn0U0&usqp=CAU')">
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAaHlgZJ8RGMNlKoLtfDwzRDDmSYGhN90JbMDxC25HFpu1-c5ZWX5aqK8Im3bo5-Rn0U0&usqp=CAU" alt="Grower chicken thumbnail 3" class="w-full h-full object-cover">
                                         </div>
-                                        <div class="h-16 bg-gray-200 rounded-md overflow-hidden cursor-pointer border-2 border-transparent hover:border-[#f5d118]" onclick="changeImage('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80')">
-                                            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80" alt="Grower chicken thumbnail 4" class="w-full h-full object-cover">
+                                        <div class="h-40 bg-gray-200 rounded-md overflow-hidden cursor-pointer border-2 border-transparent hover:border-[#f5d118]" onclick="changeImage('https://www.mypetchicken.com/cdn/shop/files/frizzle-easter-egger-bantam.png?v=1741897171')">
+                                            <img src="https://www.mypetchicken.com/cdn/shop/files/frizzle-easter-egger-bantam.png?v=1741897171" alt="Grower chicken thumbnail 4" class="w-full h-full object-cover">
                                         </div>
                                     </div>
                                     <!-- Fast Facts -->
@@ -193,8 +193,8 @@
                                                 <span class="block text-xs text-gray-700">Faster to market than chicks</span>
                                             </div>
                                             <div class="flex-1 bg-[#1b3c4d] bg-opacity-10 rounded p-3 text-center">
-                                                <span class="block text-2xl font-bold text-[#1b3c4d]">Low Risk</span>
-                                                <span class="block text-xs text-gray-700">Reduced brooding losses</span>
+                                                <span class="block text-2xl font-bold text-white">Low Risk</span>
+                                                <span class="block text-xs text-white">Reduced brooding losses</span>
                                             </div>
                                             <div class="flex-1 bg-[#f5d118] bg-opacity-20 rounded p-3 text-center">
                                                 <span class="block text-2xl font-bold text-[#1b3c4d]">Expert Care</span>
@@ -206,11 +206,11 @@
                                     <div class="bg-[#1b3c4d] bg-opacity-10 border-l-4 border-[#f5d118] p-4 rounded mb-6">
                                         <div class="flex items-center mb-2">
                                             <svg class="w-5 h-5 text-[#f5d118] mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M12 14h.01M16 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                                            <span class="font-bold text-[#1b3c4d]">Ask an Expert!</span>
+                                            <span class="font-bold text-white">Ask an Expert!</span>
                                         </div>
-                                        <p class="text-sm text-gray-700">
+                                        <p class="text-sm text-white">
                                             Not sure how to get started with growers? <br>
-                                            <a href="https://wa.me/254721577451" class="underline text-[#1b3c4d]">Chat with us on WhatsApp</a> or call <a href="tel:0721577451" class="underline text-[#1b3c4d]">0721 577 451</a> for free advice.
+                                            <a href="https://wa.me/254721577451" class="underline text-white">Chat with us on WhatsApp</a> or call <a href="tel:0721577451" class="underline text-white">0721 577 451</a> for free advice.
                                         </p>
                                     </div>
                                     <!-- Features List -->

@@ -80,21 +80,21 @@
                             <div class="flex flex-col lg:flex-row gap-8">
                                 <!-- Image Gallery -->
                                 <div class="lg:w-1/2">
-                                    <div class="relative rounded-lg overflow-hidden mb-4 h-64 bg-gray-100 flex items-center justify-center">
-                                        <img id="mainImage" src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=600&q=80" alt="Fresh chicken meat" class="w-full h-full object-cover">
+                                    <div class="relative rounded-lg overflow-hidden mb-4 h-80 bg-gray-100 flex items-center justify-center">
+                                        <img id="mainImage" src="https://media.istockphoto.com/id/1282866808/photo/fresh-raw-chicken.jpg?s=612x612&w=0&k=20&c=QtfdAhdeIGpR3JUNDmYFo6cN0el8oYMcOXMQI7Qder4=" alt="Fresh chicken meat" class="w-full h-full object-cover">
                                     </div>
                                     <div class="grid grid-cols-4 gap-2">
-                                        <div class="h-16 bg-gray-200 rounded-md overflow-hidden cursor-pointer border-2 border-transparent hover:border-[#f5d118]" onclick="changeImage('https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=600&q=80')">
-                                            <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=600&q=80" alt="Chicken meat thumbnail 1" class="w-full h-full object-cover">
+                                        <div class="h-40 bg-gray-200 rounded-md overflow-hidden cursor-pointer border-2 border-transparent hover:border-[#f5d118]" onclick="changeImage('https://media.istockphoto.com/id/499602871/photo/whole-raw-chicken-with-rose-pepper-and-thyme.jpg?s=612x612&w=0&k=20&c=yXFGiy6gYsheD2CwnHGvJrQNsTwiYW99EHRN8d0YUk8=')">
+                                            <img src="https://media.istockphoto.com/id/499602871/photo/whole-raw-chicken-with-rose-pepper-and-thyme.jpg?s=612x612&w=0&k=20&c=yXFGiy6gYsheD2CwnHGvJrQNsTwiYW99EHRN8d0YUk8=" alt="Chicken meat thumbnail 1" class="w-full h-full object-cover">
                                         </div>
-                                        <div class="h-16 bg-gray-200 rounded-md overflow-hidden cursor-pointer border-2 border-transparent hover:border-[#f5d118]" onclick="changeImage('https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=600&q=80')">
-                                            <img src="https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=600&q=80" alt="Chicken meat thumbnail 2" class="w-full h-full object-cover">
+                                        <div class="h-40 bg-gray-200 rounded-md overflow-hidden cursor-pointer border-2 border-transparent hover:border-[#f5d118]" onclick="changeImage('https://www.shutterstock.com/image-photo/raw-chicken-meat-fillet-thigh-260nw-2338869339.jpg')">
+                                            <img src="https://www.shutterstock.com/image-photo/raw-chicken-meat-fillet-thigh-260nw-2338869339.jpg" alt="Chicken meat thumbnail 2" class="w-full h-full object-cover">
                                         </div>
-                                        <div class="h-16 bg-gray-200 rounded-md overflow-hidden cursor-pointer border-2 border-transparent hover:border-[#f5d118]" onclick="changeImage('https://images.unsplash.com/photo-1502741338009-cac2772e18bc?auto=format&fit=crop&w=600&q=80')">
-                                            <img src="https://images.unsplash.com/photo-1502741338009-cac2772e18bc?auto=format&fit=crop&w=600&q=80" alt="Chicken meat thumbnail 3" class="w-full h-full object-cover">
+                                        <div class="h-40 bg-gray-200 rounded-md overflow-hidden cursor-pointer border-2 border-transparent hover:border-[#f5d118]" onclick="changeImage('https://thumbs.dreamstime.com/b/fresh-chicken-meat-wooden-board-top-view-83865597.jpg')">
+                                            <img src="https://thumbs.dreamstime.com/b/fresh-chicken-meat-wooden-board-top-view-83865597.jpg" alt="Chicken meat thumbnail 3" class="w-full h-full object-cover">
                                         </div>
-                                        <div class="h-16 bg-gray-200 rounded-md overflow-hidden cursor-pointer border-2 border-transparent hover:border-[#f5d118]" onclick="changeImage('https://images.unsplash.com/photo-1464306076886-debca5e8a6b0?auto=format&fit=crop&w=600&q=80')">
-                                            <img src="https://images.unsplash.com/photo-1464306076886-debca5e8a6b0?auto=format&fit=crop&w=600&q=80" alt="Chicken meat thumbnail 4" class="w-full h-full object-cover">
+                                        <div class="h-40 bg-gray-200 rounded-md overflow-hidden cursor-pointer border-2 border-transparent hover:border-[#f5d118]" onclick="changeImage('https://images.unsplash.com/photo-1587593810167-a84920ea0781?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2hpY2tlbiUyMG1lYXR8ZW58MHx8MHx8fDA%3D')">
+                                            <img src="https://images.unsplash.com/photo-1587593810167-a84920ea0781?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2hpY2tlbiUyMG1lYXR8ZW58MHx8MHx8fDA%3D" alt="Chicken meat thumbnail 4" class="w-full h-full object-cover">
                                         </div>
                                     </div>
                                     <!-- Fast Facts -->
@@ -123,8 +123,8 @@
                                                 <span class="block text-xs text-gray-700">Hygienic</span>
                                             </div>
                                             <div class="flex-1 bg-[#1b3c4d] bg-opacity-10 rounded p-3 text-center">
-                                                <span class="block text-2xl font-bold text-[#1b3c4d]">Tender</span>
-                                                <span class="block text-xs text-gray-700">Juicy, flavorful</span>
+                                                <span class="block text-2xl font-bold text-white">Tender</span>
+                                                <span class="block text-xs text-white">Juicy, flavorful</span>
                                             </div>
                                             <div class="flex-1 bg-[#f5d118] bg-opacity-20 rounded p-3 text-center">
                                                 <span class="block text-2xl font-bold text-[#1b3c4d]">No Hormones</span>
@@ -136,10 +136,10 @@
                                     <div class="bg-[#1b3c4d] bg-opacity-10 border-l-4 border-[#f5d118] p-4 rounded mb-6">
                                         <div class="flex items-center mb-2">
                                             <svg class="w-5 h-5 text-[#f5d118] mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M12 14h.01M16 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                                            <span class="font-bold text-[#1b3c4d]">Ask a Meat Expert!</span>
+                                            <span class="font-bold text-white">Ask a Meat Expert!</span>
                                         </div>
-                                        <p class="text-sm text-gray-700">
-                                            Want to order or need cooking tips? <a href="https://wa.me/254721577451" class="underline text-[#1b3c4d]">Chat with us on WhatsApp</a> or call <a href="tel:0721577451" class="underline text-[#1b3c4d]">0721 577 451</a> for free advice.
+                                        <p class="text-sm text-white">
+                                            Want to order or need cooking tips? <a href="https://wa.me/254721577451" class="underline text-white">Chat with us on WhatsApp</a> or call <a href="tel:0721577451" class="underline text-white">0721 577 451</a> for free advice.
                                         </p>
                                     </div>
                                     <!-- Features List -->

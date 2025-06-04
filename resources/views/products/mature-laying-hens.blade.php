@@ -68,7 +68,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="indigenous-kienyeji-chickens" class="flex items-center p-2 hover:bg-[#f5d118] hover:bg-opacity-10 rounded-lg group">
+                                <a href="/indigenous-kienyeji-chickens" class="flex items-center p-2 hover:bg-[#f5d118] hover:bg-opacity-10 rounded-lg group">
                                     <div class="w-8 h-8 border border-[#1b3c4d] rounded-full flex items-center justify-center mr-3">
                                         <svg class="w-3 h-3 text-[#1b3c4d]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path></svg>
                                     </div>
@@ -150,21 +150,21 @@
                             <div class="flex flex-col lg:flex-row gap-8">
                                 <!-- Image Gallery -->
                                 <div class="lg:w-1/2">
-                                    <div class="relative rounded-lg overflow-hidden mb-4 h-64 bg-gray-100 flex items-center justify-center">
-                                        <img id="mainImage" src="https://images.unsplash.com/photo-1508873699372-7aeab60b44c9?auto=format&fit=crop&w=600&q=80" alt="Mature laying hen" class="w-full h-full object-cover">
+                                    <div class="relative rounded-lg overflow-hidden mb-4 h-80 bg-gray-100 flex items-center justify-center">
+                                        <img id="mainImage" src="https://www.flytesofancy.co.uk/cdn/shop/articles/hens-with-basket-of-eggs-600x475-2.jpg?v=1709282178" alt="Mature laying hen" class="w-full h-full object-cover">
                                     </div>
                                     <div class="grid grid-cols-4 gap-2">
-                                        <div class="h-16 bg-gray-200 rounded-md overflow-hidden cursor-pointer border-2 border-transparent hover:border-[#f5d118]" onclick="changeImage('https://images.unsplash.com/photo-1508873699372-7aeab60b44c9?auto=format&fit=crop&w=600&q=80')">
-                                            <img src="https://images.unsplash.com/photo-1508873699372-7aeab60b44c9?auto=format&fit=crop&w=600&q=80" alt="Laying hen thumbnail 1" class="w-full h-full object-cover">
+                                        <div class="h-40 bg-gray-200 rounded-md overflow-hidden cursor-pointer border-2 border-transparent hover:border-[#f5d118]" onclick="changeImage('https://greenafrik.com/wp-content/uploads/2023/11/3155670_img20151205131303_jpegac3f4317bae96bd8c8331e1accfea357.jpeg')">
+                                            <img src="https://greenafrik.com/wp-content/uploads/2023/11/3155670_img20151205131303_jpegac3f4317bae96bd8c8331e1accfea357.jpeg" alt="Laying hen thumbnail 1" class="w-full h-full object-cover">
                                         </div>
-                                        <div class="h-16 bg-gray-200 rounded-md overflow-hidden cursor-pointer border-2 border-transparent hover:border-[#f5d118]" onclick="changeImage('https://images.unsplash.com/photo-1518717758536-85ae29035b6d?auto=format&fit=crop&w=600&q=80')">
-                                            <img src="https://images.unsplash.com/photo-1518717758536-85ae29035b6d?auto=format&fit=crop&w=600&q=80" alt="Laying hen thumbnail 2" class="w-full h-full object-cover">
+                                        <div class="h-40 bg-gray-200 rounded-md overflow-hidden cursor-pointer border-2 border-transparent hover:border-[#f5d118]" onclick="changeImage('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqLb1KHqzUr0_Ckn1TE1OOwTQeSiV-uEgol-vxzxhDf33E17NYz7v3BXT8tlToaWRvbGE&usqp=CAU')">
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqLb1KHqzUr0_Ckn1TE1OOwTQeSiV-uEgol-vxzxhDf33E17NYz7v3BXT8tlToaWRvbGE&usqp=CAU" alt="Laying hen thumbnail 2" class="w-full h-full object-cover">
                                         </div>
-                                        <div class="h-16 bg-gray-200 rounded-md overflow-hidden cursor-pointer border-2 border-transparent hover:border-[#f5d118]" onclick="changeImage('https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=80')">
-                                            <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=80" alt="Laying hen thumbnail 3" class="w-full h-full object-cover">
+                                        <div class="h-40 bg-gray-200 rounded-md overflow-hidden cursor-pointer border-2 border-transparent hover:border-[#f5d118]" onclick="changeImage('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTApIZULQLa0ysvS74TBiqylEmhUNK9ej6zWfGZsFGpqMvOclYucteEDjPX_rKvhHTdtvA&usqp=CAU')">
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTApIZULQLa0ysvS74TBiqylEmhUNK9ej6zWfGZsFGpqMvOclYucteEDjPX_rKvhHTdtvA&usqp=CAU" alt="Laying hen thumbnail 3" class="w-full h-full object-cover">
                                         </div>
-                                        <div class="h-16 bg-gray-200 rounded-md overflow-hidden cursor-pointer border-2 border-transparent hover:border-[#f5d118]" onclick="changeImage('https://images.unsplash.com/photo-1465101178521-c1a9136a0b14?auto=format&fit=crop&w=600&q=80')">
-                                            <img src="https://images.unsplash.com/photo-1465101178521-c1a9136a0b14?auto=format&fit=crop&w=600&q=80" alt="Laying hen thumbnail 4" class="w-full h-full object-cover">
+                                        <div class="h-40 bg-gray-200 rounded-md overflow-hidden cursor-pointer border-2 border-transparent hover:border-[#f5d118]" onclick="changeImage('https://www.poultryworld.net/app/uploads/2021/04/001_915_rb-image-2850636.jpeg')">
+                                            <img src="https://www.poultryworld.net/app/uploads/2021/04/001_915_rb-image-2850636.jpeg" alt="Laying hen thumbnail 4" class="w-full h-full object-cover">
                                         </div>
                                     </div>
                                     <!-- Fast Facts -->
@@ -193,8 +193,8 @@
                                                 <span class="block text-xs text-gray-700">Eggs per hen/year</span>
                                             </div>
                                             <div class="flex-1 bg-[#1b3c4d] bg-opacity-10 rounded p-3 text-center">
-                                                <span class="block text-2xl font-bold text-[#1b3c4d]">Instant</span>
-                                                <span class="block text-xs text-gray-700">Start laying on arrival</span>
+                                                <span class="block text-2xl font-bold text-white">Instant</span>
+                                                <span class="block text-xs text-white">Start laying on arrival</span>
                                             </div>
                                             <div class="flex-1 bg-[#f5d118] bg-opacity-20 rounded p-3 text-center">
                                                 <span class="block text-2xl font-bold text-[#1b3c4d]">Low Stress</span>
@@ -206,11 +206,11 @@
                                     <div class="bg-[#1b3c4d] bg-opacity-10 border-l-4 border-[#f5d118] p-4 rounded mb-6">
                                         <div class="flex items-center mb-2">
                                             <svg class="w-5 h-5 text-[#f5d118] mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M12 14h.01M16 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                                            <span class="font-bold text-[#1b3c4d]">Ask an Egg Expert!</span>
+                                            <span class="font-bold text-white">Ask an Egg Expert!</span>
                                         </div>
-                                        <p class="text-sm text-gray-700">
+                                        <p class="text-sm text-white">
                                             Need advice on managing layers? <br>
-                                            <a href="https://wa.me/254721577451" class="underline text-[#1b3c4d]">Chat with us on WhatsApp</a> or call <a href="tel:0721577451" class="underline text-[#1b3c4d]">0721 577 451</a> for free tips.
+                                            <a href="https://wa.me/254721577451" class="underline text-white">Chat with us on WhatsApp</a> or call <a href="tel:0721577451" class="underline text-white">0721 577 451</a> for free tips.
                                         </p>
                                     </div>
                                     <!-- Features List -->

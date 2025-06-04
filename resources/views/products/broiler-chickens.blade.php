@@ -80,21 +80,21 @@
                             <div class="flex flex-col lg:flex-row gap-8">
                                 <!-- Image Gallery -->
                                 <div class="lg:w-1/2">
-                                    <div class="relative rounded-lg overflow-hidden mb-4 h-64 bg-gray-100 flex items-center justify-center">
-                                        <img id="mainImage" src="https://images.unsplash.com/photo-1518717758536-85ae29035b6d?auto=format&fit=crop&w=600&q=80" alt="Broiler chicken" class="w-full h-full object-cover">
+                                    <div class="relative rounded-lg overflow-hidden mb-4 h-80 bg-gray-100 flex items-center justify-center">
+                                        <img id="mainImage" src="https://www.humaneworld.org/sites/default/files/styles/responsive_3_2_500w/public/2024-01/chickens_607100.jpg.webp?itok=wEElcNlI" alt="Broiler chicken" class="w-full h-full object-cover">
                                     </div>
                                     <div class="grid grid-cols-4 gap-2">
-                                        <div class="h-16 bg-gray-200 rounded-md overflow-hidden cursor-pointer border-2 border-transparent hover:border-[#f5d118]" onclick="changeImage('https://images.unsplash.com/photo-1518717758536-85ae29035b6d?auto=format&fit=crop&w=600&q=80')">
-                                            <img src="https://images.unsplash.com/photo-1518717758536-85ae29035b6d?auto=format&fit=crop&w=600&q=80" alt="Broiler thumbnail 1" class="w-full h-full object-cover">
+                                        <div class="h-40 bg-gray-200 rounded-md overflow-hidden cursor-pointer border-2 border-transparent hover:border-[#f5d118]" onclick="changeImage('https://static.vegsoc.org/app/uploads/2023/12/broiler-chicken-708x480.jpeg')">
+                                            <img src="https://static.vegsoc.org/app/uploads/2023/12/broiler-chicken-708x480.jpeg" alt="Broiler thumbnail 1" class="w-full h-full object-cover">
                                         </div>
-                                        <div class="h-16 bg-gray-200 rounded-md overflow-hidden cursor-pointer border-2 border-transparent hover:border-[#f5d118]" onclick="changeImage('https://images.unsplash.com/photo-1528715471579-d1bd1e2c6b47?auto=format&fit=crop&w=600&q=80')">
-                                            <img src="https://images.unsplash.com/photo-1528715471579-d1bd1e2c6b47?auto=format&fit=crop&w=600&q=80" alt="Broiler thumbnail 2" class="w-full h-full object-cover">
+                                        <div class="h-40 bg-gray-200 rounded-md overflow-hidden cursor-pointer border-2 border-transparent hover:border-[#f5d118]" onclick="changeImage('https://www.openphilanthropy.org/wp-content/uploads/broiler-Lukas-Vincour-wam-1024x692.jpg')">
+                                            <img src="https://www.openphilanthropy.org/wp-content/uploads/broiler-Lukas-Vincour-wam-1024x692.jpg" alt="Broiler thumbnail 2" class="w-full h-full object-cover">
                                         </div>
-                                        <div class="h-16 bg-gray-200 rounded-md overflow-hidden cursor-pointer border-2 border-transparent hover:border-[#f5d118]" onclick="changeImage('https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=80')">
-                                            <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=80" alt="Broiler thumbnail 3" class="w-full h-full object-cover">
+                                        <div class="h-40 bg-gray-200 rounded-md overflow-hidden cursor-pointer border-2 border-transparent hover:border-[#f5d118]" onclick="changeImage('https://www.humaneworld.org/sites/default/files/styles/responsive_500w/public/2024-01/broiler-chickens_632834.JPEG?itok=-TTC_j3b')">
+                                            <img src="https://www.humaneworld.org/sites/default/files/styles/responsive_500w/public/2024-01/broiler-chickens_632834.JPEG?itok=-TTC_j3b" alt="Broiler thumbnail 3" class="w-full h-full object-cover">
                                         </div>
-                                        <div class="h-16 bg-gray-200 rounded-md overflow-hidden cursor-pointer border-2 border-transparent hover:border-[#f5d118]" onclick="changeImage('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80')">
-                                            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80" alt="Broiler thumbnail 4" class="w-full h-full object-cover">
+                                        <div class="h-40 bg-gray-200 rounded-md overflow-hidden cursor-pointer border-2 border-transparent hover:border-[#f5d118]" onclick="changeImage('https://www.chickencheck.in/wp-content/uploads/2015/11/Chickens.jpg')">
+                                            <img src="https://www.chickencheck.in/wp-content/uploads/2015/11/Chickens.jpg" alt="Broiler thumbnail 4" class="w-full h-full object-cover">
                                         </div>
                                     </div>
                                     <!-- Fast Facts -->
@@ -123,8 +123,8 @@
                                                 <span class="block text-xs text-gray-700">To market weight</span>
                                             </div>
                                             <div class="flex-1 bg-[#1b3c4d] bg-opacity-10 rounded p-3 text-center">
-                                                <span class="block text-2xl font-bold text-[#1b3c4d]">Tender</span>
-                                                <span class="block text-xs text-gray-700">Juicy, soft meat</span>
+                                                <span class="block text-2xl font-bold text-white">Tender</span>
+                                                <span class="block text-xs text-white">Juicy, soft meat</span>
                                             </div>
                                             <div class="flex-1 bg-[#f5d118] bg-opacity-20 rounded p-3 text-center">
                                                 <span class="block text-2xl font-bold text-[#1b3c4d]">Profitable</span>
@@ -136,10 +136,10 @@
                                     <div class="bg-[#1b3c4d] bg-opacity-10 border-l-4 border-[#f5d118] p-4 rounded mb-6">
                                         <div class="flex items-center mb-2">
                                             <svg class="w-5 h-5 text-[#f5d118] mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M12 14h.01M16 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                                            <span class="font-bold text-[#1b3c4d]">Ask a Broiler Expert!</span>
+                                            <span class="font-bold text-white">Ask a Broiler Expert!</span>
                                         </div>
-                                        <p class="text-sm text-gray-700">
-                                            Need tips on broiler feeding or housing? <a href="https://wa.me/254721577451" class="underline text-[#1b3c4d]">Chat with us on WhatsApp</a> or call <a href="tel:0721577451" class="underline text-[#1b3c4d]">0721 577 451</a> for free advice.
+                                        <p class="text-sm text-white">
+                                            Need tips on broiler feeding or housing? <a href="https://wa.me/254721577451" class="underline text-white">Chat with us on WhatsApp</a> or call <a href="tel:0721577451" class="underline text-white">0721 577 451</a> for free advice.
                                         </p>
                                     </div>
                                     <!-- Features List -->

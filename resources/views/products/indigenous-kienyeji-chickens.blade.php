@@ -150,21 +150,21 @@
                             <div class="flex flex-col lg:flex-row gap-8">
                                 <!-- Image Gallery -->
                                 <div class="lg:w-1/2">
-                                    <div class="relative rounded-lg overflow-hidden mb-4 h-64 bg-gray-100 flex items-center justify-center">
-                                        <img id="mainImage" src="https://images.unsplash.com/photo-1465101178521-c1a9136a0b14?auto=format&fit=crop&w=600&q=80" alt="Indigenous kienyeji chicken" class="w-full h-full object-cover">
+                                    <div class="relative rounded-lg overflow-hidden mb-4 h-80 bg-gray-100 flex items-center justify-center">
+                                        <img id="mainImage" src="https://jaguzafarm.com/support/wp-content/uploads/2019/11/kienyeji-chicken.jpg" alt="Indigenous kienyeji chicken" class="w-full h-full object-cover">
                                     </div>
                                     <div class="grid grid-cols-4 gap-2">
-                                        <div class="h-16 bg-gray-200 rounded-md overflow-hidden cursor-pointer border-2 border-transparent hover:border-[#f5d118]" onclick="changeImage('https://images.unsplash.com/photo-1465101178521-c1a9136a0b14?auto=format&fit=crop&w=600&q=80')">
-                                            <img src="https://images.unsplash.com/photo-1465101178521-c1a9136a0b14?auto=format&fit=crop&w=600&q=80" alt="Kienyeji thumbnail 1" class="w-full h-full object-cover">
+                                        <div class="h-40 bg-gray-200 rounded-md overflow-hidden cursor-pointer border-2 border-transparent hover:border-[#f5d118]" onclick="changeImage('https://www.kenyanews.go.ke/wp-content/uploads/2024/03/DSC_3352-1200x630.jpeg')">
+                                            <img src="https://www.kenyanews.go.ke/wp-content/uploads/2024/03/DSC_3352-1200x630.jpeg" alt="Kienyeji thumbnail 1" class="w-full h-full object-cover">
                                         </div>
-                                        <div class="h-16 bg-gray-200 rounded-md overflow-hidden cursor-pointer border-2 border-transparent hover:border-[#f5d118]" onclick="changeImage('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80')">
-                                            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80" alt="Kienyeji thumbnail 2" class="w-full h-full object-cover">
+                                        <div class="h-40 bg-gray-200 rounded-md overflow-hidden cursor-pointer border-2 border-transparent hover:border-[#f5d118]" onclick="changeImage('https://i0.wp.com/ecochickspoultry.com/wp-content/uploads/2022/05/Indigenous-chicken-2.png?fit=700%2C465&ssl=1')">
+                                            <img src="https://i0.wp.com/ecochickspoultry.com/wp-content/uploads/2022/05/Indigenous-chicken-2.png?fit=700%2C465&ssl=1" alt="Kienyeji thumbnail 2" class="w-full h-full object-cover">
                                         </div>
-                                        <div class="h-16 bg-gray-200 rounded-md overflow-hidden cursor-pointer border-2 border-transparent hover:border-[#f5d118]" onclick="changeImage('https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80')">
-                                            <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80" alt="Kienyeji thumbnail 3" class="w-full h-full object-cover">
+                                        <div class="h-40 bg-gray-200 rounded-md overflow-hidden cursor-pointer border-2 border-transparent hover:border-[#f5d118]" onclick="changeImage('https://i0.wp.com/farmhatch.co.ke/wp-content/uploads/2023/03/Chicken-Feeding-1024x640-Copy-2-1.jpg?resize=1024%2C640&ssl=1')">
+                                            <img src="https://i0.wp.com/farmhatch.co.ke/wp-content/uploads/2023/03/Chicken-Feeding-1024x640-Copy-2-1.jpg?resize=1024%2C640&ssl=1" alt="Kienyeji thumbnail 3" class="w-full h-full object-cover">
                                         </div>
-                                        <div class="h-16 bg-gray-200 rounded-md overflow-hidden cursor-pointer border-2 border-transparent hover:border-[#f5d118]" onclick="changeImage('https://images.unsplash.com/photo-1518717758536-85ae29035b6d?auto=format&fit=crop&w=600&q=80')">
-                                            <img src="https://images.unsplash.com/photo-1518717758536-85ae29035b6d?auto=format&fit=crop&w=600&q=80" alt="Kienyeji thumbnail 4" class="w-full h-full object-cover">
+                                        <div class="h-40 bg-gray-200 rounded-md overflow-hidden cursor-pointer border-2 border-transparent hover:border-[#f5d118]" onclick="changeImage('https://kalrogaps.info/images/Local-Poultry.jpg')">
+                                            <img src="https://kalrogaps.info/images/Local-Poultry.jpg" alt="Kienyeji thumbnail 4" class="w-full h-full object-cover">
                                         </div>
                                     </div>
                                     <!-- Fast Facts -->
@@ -193,8 +193,8 @@
                                                 <span class="block text-xs text-gray-700">Minimal feed, high resilience</span>
                                             </div>
                                             <div class="flex-1 bg-[#1b3c4d] bg-opacity-10 rounded p-3 text-center">
-                                                <span class="block text-2xl font-bold text-[#1b3c4d]">Tasty Meat</span>
-                                                <span class="block text-xs text-gray-700">Preferred by families & hotels</span>
+                                                <span class="block text-2xl font-bold text-white">Tasty Meat</span>
+                                                <span class="block text-xs text-white">Preferred by families & hotels</span>
                                             </div>
                                             <div class="flex-1 bg-[#f5d118] bg-opacity-20 rounded p-3 text-center">
                                                 <span class="block text-2xl font-bold text-[#1b3c4d]">Local Pride</span>
@@ -206,10 +206,10 @@
                                     <div class="bg-[#1b3c4d] bg-opacity-10 border-l-4 border-[#f5d118] p-4 rounded mb-6">
                                         <div class="flex items-center mb-2">
                                             <svg class="w-5 h-5 text-[#f5d118] mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M12 14h.01M16 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                                            <span class="font-bold text-[#1b3c4d]">Ask a Kienyeji Expert!</span>
+                                            <span class="font-bold text-white">Ask a Kienyeji Expert!</span>
                                         </div>
-                                        <p class="text-sm text-gray-700">
-                                            Want to start a kienyeji project? <a href="https://wa.me/254721577451" class="underline text-[#1b3c4d]">Chat with us on WhatsApp</a> or call <a href="tel:0721577451" class="underline text-[#1b3c4d]">0721 577 451</a> for free advice.
+                                        <p class="text-sm text-white">
+                                            Want to start a kienyeji project? <a href="https://wa.me/254721577451" class="underline text-white">Chat with us on WhatsApp</a> or call <a href="tel:0721577451" class="underline text-white">0721 577 451</a> for free advice.
                                         </p>
                                     </div>
                                     <!-- Features List -->

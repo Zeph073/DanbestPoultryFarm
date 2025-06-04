@@ -80,21 +80,21 @@
                             <div class="flex flex-col lg:flex-row gap-8">
                                 <!-- Image Gallery -->
                                 <div class="lg:w-1/2">
-                                    <div class="relative rounded-lg overflow-hidden mb-4 h-64 bg-gray-100 flex items-center justify-center">
-                                        <img id="mainImage" src="https://images.unsplash.com/photo-1556905055-8f358a7a47b2?auto=format&fit=crop&w=600&q=80" alt="Fertile hatching eggs" class="w-full h-full object-cover">
+                                    <div class="relative rounded-lg overflow-hidden mb-4 h-80 bg-gray-100 flex items-center justify-center">
+                                        <img id="mainImage" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQH1RCNi399U13K_2VJ7buEwG5VxeT6k-pPNw&s" alt="Fertile hatching eggs" class="w-full h-full object-cover">
                                     </div>
                                     <div class="grid grid-cols-4 gap-2">
-                                        <div class="h-16 bg-gray-200 rounded-md overflow-hidden cursor-pointer border-2 border-transparent hover:border-[#f5d118]" onclick="changeImage('https://images.unsplash.com/photo-1556905055-8f358a7a47b2?auto=format&fit=crop&w=600&q=80')">
-                                            <img src="https://images.unsplash.com/photo-1556905055-8f358a7a47b2?auto=format&fit=crop&w=600&q=80" alt="Eggs thumbnail 1" class="w-full h-full object-cover">
+                                        <div class="h-40 bg-gray-200 rounded-md overflow-hidden cursor-pointer border-2 border-transparent hover:border-[#f5d118]" onclick="changeImage('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS10EjJG6fDd3ARDq9ZKtOOV462yPdxxJksyA&s')">
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS10EjJG6fDd3ARDq9ZKtOOV462yPdxxJksyA&s" alt="Eggs thumbnail 1" class="w-full h-full object-cover">
                                         </div>
-                                        <div class="h-16 bg-gray-200 rounded-md overflow-hidden cursor-pointer border-2 border-transparent hover:border-[#f5d118]" onclick="changeImage('https://images.unsplash.com/photo-1614342767774-899056c24465?auto=format&fit=crop&w=600&q=80')">
-                                            <img src="https://images.unsplash.com/photo-1614342767774-899056c24465?auto=format&fit=crop&w=600&q=80" alt="Eggs thumbnail 2" class="w-full h-full object-cover">
+                                        <div class="h-40 bg-gray-200 rounded-md overflow-hidden cursor-pointer border-2 border-transparent hover:border-[#f5d118]" onclick="changeImage('https://www.chickens.allotment-garden.org/poultry-suppliers/assets/hatching-eggs.jpg')">
+                                            <img src="https://www.chickens.allotment-garden.org/poultry-suppliers/assets/hatching-eggs.jpg" alt="Eggs thumbnail 2" class="w-full h-full object-cover">
                                         </div>
-                                        <div class="h-16 bg-gray-200 rounded-md overflow-hidden cursor-pointer border-2 border-transparent hover:border-[#f5d118]" onclick="changeImage('https://images.unsplash.com/photo-1586319941554-6cae99e67901?auto=format&fit=crop&w=600&q=80')">
-                                            <img src="https://images.unsplash.com/photo-1586319941554-6cae99e67901?auto=format&fit=crop&w=600&q=80" alt="Eggs thumbnail 3" class="w-full h-full object-cover">
+                                        <div class="h-40 bg-gray-200 rounded-md overflow-hidden cursor-pointer border-2 border-transparent hover:border-[#f5d118]" onclick="changeImage('https://cdn.shopify.com/s/files/1/0085/8950/8688/files/RainbowEggs_2048x2048.jpg?v=1624477654')">
+                                            <img src="https://cdn.shopify.com/s/files/1/0085/8950/8688/files/RainbowEggs_2048x2048.jpg?v=1624477654" alt="Eggs thumbnail 3" class="w-full h-full object-cover">
                                         </div>
-                                        <div class="h-16 bg-gray-200 rounded-md overflow-hidden cursor-pointer border-2 border-transparent hover:border-[#f5d118]" onclick="changeImage('https://images.unsplash.com/photo-1567306314424-55c94c0d81d7f?auto=format&fit=crop&w=600&q=80')">
-                                            <img src="https://images.unsplash.com/photo-1567306314424-55c94c0d81d7f?auto=format&fit=crop&w=600&q=80" alt="Eggs thumbnail 4" class="w-full h-full object-cover">
+                                        <div class="h-40 bg-gray-200 rounded-md overflow-hidden cursor-pointer border-2 border-transparent hover:border-[#f5d118]" onclick="changeImage('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7DbshOKQA1IzEz9moLUx3VtgTDwVeI7uvgA&s')">
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7DbshOKQA1IzEz9moLUx3VtgTDwVeI7uvgA&s" alt="Eggs thumbnail 4" class="w-full h-full object-cover">
                                         </div>
                                     </div>
                                     <!-- Fast Facts -->
@@ -123,8 +123,8 @@
                                                 <span class="block text-xs text-gray-700">Hatch rate</span>
                                             </div>
                                             <div class="flex-1 bg-[#1b3c4d] bg-opacity-10 rounded p-3 text-center">
-                                                <span class="block text-2xl font-bold text-[#1b3c4d]">Strong Chicks</span>
-                                                <span class="block text-xs text-gray-700">Vigorous, healthy</span>
+                                                <span class="block text-2xl font-bold text-white">Strong Chicks</span>
+                                                <span class="block text-xs text-white">Vigorous, healthy</span>
                                             </div>
                                             <div class="flex-1 bg-[#f5d118] bg-opacity-20 rounded p-3 text-center">
                                                 <span class="block text-2xl font-bold text-[#1b3c4d]">Genetic Quality</span>
@@ -136,10 +136,10 @@
                                     <div class="bg-[#1b3c4d] bg-opacity-10 border-l-4 border-[#f5d118] p-4 rounded mb-6">
                                         <div class="flex items-center mb-2">
                                             <svg class="w-5 h-5 text-[#f5d118] mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M12 14h.01M16 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                                            <span class="font-bold text-[#1b3c4d]">Ask a Hatching Expert!</span>
+                                            <span class="font-bold text-white">Ask a Hatching Expert!</span>
                                         </div>
-                                        <p class="text-sm text-gray-700">
-                                            Need hatching tips? <a href="https://wa.me/254721577451" class="underline text-[#1b3c4d]">Chat with us on WhatsApp</a> or call <a href="tel:0721577451" class="underline text-[#1b3c4d]">0721 577 451</a> for free advice.
+                                        <p class="text-sm text-white">
+                                            Need hatching tips? <a href="https://wa.me/254721577451" class="underline text-white">Chat with us on WhatsApp</a> or call <a href="tel:0721577451" class="underline text-white">0721 577 451</a> for free advice.
                                         </p>
                                     </div>
                                     <!-- Features List -->
