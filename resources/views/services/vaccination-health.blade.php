@@ -13,7 +13,7 @@
                 Protect your flock, maximize productivity, and prevent costly disease outbreaks with expert vaccination and health services.
             </p>
             <div class="mt-8">
-                <a href="#contact" class="bg-[#f5d118] hover:bg-[#e6c515] text-[#1b3c4d] font-bold py-3 px-8 rounded-lg text-center transition duration-300 transform hover:scale-105">
+                <a href="/contact-us" class="bg-[#f5d118] hover:bg-[#e6c515] text-[#1b3c4d] font-bold py-3 px-8 rounded-lg text-center transition duration-300 transform hover:scale-105">
                     Book a Health Visit
                 </a>
             </div>

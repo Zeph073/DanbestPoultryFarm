@@ -19,13 +19,13 @@
 <body class="bg-[#ffffff] text-paragraph font-PlayfairDisplayRegular">
 
 {{--Navigation Bar--}}
-<nav class="bg-black text-white shadow-lg py-2 md:py-4 relative top-0 z-50 border-b-4 border-[#f5d118]">
+<nav class="bg-[#f5edde] text-white shadow-lg py-2 md:py-4 relative top-0 z-50 border-b-4 border-[#f5d118]">
     <div class="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between h-20 items-center">
             <!-- Logo -->
             <div class="flex-shrink-0 flex items-center">
                 <a href="/" class="flex items-center">
-                    <img src="{{ asset('images/logo.png') }}" alt="Labl-fashion Logo" class="h-18 md:h-20 lg:h-24 transition-all duration-300">
+                    <img src="{{ asset('images/sepha.png') }}" alt="Labl-fashion Logo" class="h-18 md:h-20 lg:h-24 transition-all duration-300">
                 </a>
             </div>
 

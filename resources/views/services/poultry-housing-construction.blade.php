@@ -4,8 +4,14 @@
 @section('keywords', 'poultry housing, chicken coop construction, poultry farm design Kenya')
 @section('main')
     <!-- Hero Section -->
-    <section class="relative bg-[#1b3c4d] text-white overflow-hidden">
-        <div class="container mx-auto px-6 py-24 md:py-32 flex flex-col justify-center items-center text-center">
+    <section class="relative text-white overflow-hidden h-full">
+        <!-- Background Video -->
+        <video autoplay muted loop playsinline class="absolute inset-0 w-full h-full object-cover z-0 brightness-50">
+            <source src="https://videos.pexels.com/video-files/10998151/10998151-uhd_2560_1440_30fps.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <div class="container mx-auto px-6 py-24 md:py-32 flex flex-col justify-center items-center text-center relative z-10">
             <h1 class="text-4xl md:text-5xl font-bold mb-6">
                 <span class="text-[#f5d118]">Poultry Housing</span> Construction
             </h1>
@@ -18,8 +24,10 @@
                 </a>
             </div>
         </div>
-        <div class="absolute bottom-0 left-0 w-full h-16 bg-gradient-to-t from-black to-transparent opacity-20"></div>
+
+        <div class="absolute bottom-0 left-0 w-full h-16 bg-gradient-to-t from-black to-transparent opacity-20 z-10"></div>
     </section>
+
 
     <div class="mx-auto px-4 flex flex-col lg:flex-row gap-8 py-8">
         <!-- Side Navbar: Explore Our Other Services -->
@@ -68,7 +76,7 @@
                 <div class="flex flex-col md:flex-row items-center gap-12">
                     <div class="md:w-1/2 w-full">
                         <div class="bg-gray-100 rounded-xl overflow-hidden h-80 flex items-center justify-center">
-                            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80" alt="Modern poultry house" class="w-full h-full object-cover">
+                            <img src="https://eggincubatorkenya.com/wp-content/uploads/2023/03/images-13-1.jpg" alt="Modern poultry house" class="w-full h-full object-cover">
                         </div>
                     </div>
                     <div class="md:w-1/2 w-full mt-8 md:mt-0">
@@ -115,8 +123,8 @@
                 <div class="grid md:grid-cols-3 gap-8">
                     <!-- Option 1 -->
                     <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition duration-300">
-                        <div class="h-48 bg-gray-200 flex items-center justify-center">
-                            <img src="https://images.unsplash.com/photo-1465101178521-c1a9136a0b14?auto=format&fit=crop&w=600&q=80" alt="Deep Litter System" class="w-full h-full object-cover">
+                        <div class="h-64 bg-gray-200 flex items-center justify-center">
+                            <img src="https://kukufarm.com/wp-content/uploads/2023/08/Deep-litter-poultry-housing-system.webp" alt="Deep Litter System" class="w-full h-full object-cover">
                         </div>
                         <div class="p-6">
                             <h3 class="text-xl font-bold text-[#1b3c4d] mb-3">Deep Litter System</h3>
@@ -141,8 +149,8 @@
                     </div>
                     <!-- Option 2 -->
                     <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition duration-300">
-                        <div class="h-48 bg-gray-200 flex items-center justify-center">
-                            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80" alt="Battery Cage System" class="w-full h-full object-cover">
+                        <div class="h-64 bg-gray-200 flex items-center justify-center">
+                            <img src="https://chickenscage.com/uploads/images/battery-cage-system.jpg" alt="Battery Cage System" class="w-full h-full object-cover">
                         </div>
                         <div class="p-6">
                             <h3 class="text-xl font-bold text-[#1b3c4d] mb-3">Battery Cage System</h3>
@@ -167,8 +175,8 @@
                     </div>
                     <!-- Option 3 -->
                     <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition duration-300">
-                        <div class="h-48 bg-gray-200 flex items-center justify-center">
-                            <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80" alt="Free-Range Design" class="w-full h-full object-cover">
+                        <div class="h-64 bg-gray-200 flex items-center justify-center">
+                            <img src="https://www.plamondon.com/wp/wp-content/uploads/2016/05/grass-fed-hens.jpg" alt="Free-Range Design" class="w-full h-full object-cover">
                         </div>
                         <div class="p-6">
                             <h3 class="text-xl font-bold text-[#1b3c4d] mb-3">Free-Range Design</h3>
@@ -196,14 +204,16 @@
 
             <!-- Construction Process -->
             <section class="py-8 bg-white">
-                <div class="text-center mb-12">
+                <div class="text-center mb-12 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
                     <h2 class="text-3xl font-bold text-[#1b3c4d] mb-4">Our Construction Process</h2>
                     <div class="w-20 h-1 bg-[#f5d118] mx-auto"></div>
                 </div>
-                <div class="space-y-16 md:space-y-0 md:relative">
-                    <div class="hidden md:block absolute left-1/2 h-full w-0.5 bg-[#f5d118] transform -translate-x-1/2"></div>
+                <div class="space-y-16 md:space-y-0 md:relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <!-- Vertical line for medium+ screens -->
+                    <div class="hidden md:block absolute left-1/2 top-0 bottom-0 w-0.5 bg-[#f5d118] transform -translate-x-1/2"></div>
+
                     <!-- Step 1 -->
-                    <div class="flex flex-col md:flex-row items-center md:items-start mb-8 md:mb-0">
+                    <div class="flex flex-col md:flex-row items-center md:items-start">
                         <div class="md:w-1/2 md:pr-12 mb-6 md:mb-0 md:text-right">
                             <h3 class="text-xl font-bold text-[#1b3c4d]">1. Site Assessment</h3>
                             <p class="text-gray-700 mt-2">
@@ -213,19 +223,12 @@
                         <div class="flex-shrink-0 w-12 h-12 bg-[#f5d118] rounded-full flex items-center justify-center text-white font-bold text-xl relative z-10 mx-auto md:mx-0">
                             1
                         </div>
-                        <div class="md:w-1/2 md:pl-12 mt-6 md:mt-0 w-full">
-                            <div class="bg-gray-200 rounded-lg h-48 flex items-center justify-center overflow-hidden">
-                                <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=80" alt="Site Assessment" class="w-full h-full object-cover">
-                            </div>
-                        </div>
+                        <div class="md:w-1/2 md:pl-12 mt-6 md:mt-0 w-full"></div>
                     </div>
+
                     <!-- Step 2 -->
-                    <div class="flex flex-col md:flex-row items-center md:items-start mb-8 md:mb-0">
-                        <div class="md:w-1/2 md:pr-12 order-last md:order-first w-full">
-                            <div class="bg-gray-200 rounded-lg h-48 flex items-center justify-center overflow-hidden">
-                                <img src="https://images.unsplash.com/photo-1518717758536-85ae29035b6d?auto=format&fit=crop&w=600&q=80" alt="Custom Design" class="w-full h-full object-cover">
-                            </div>
-                        </div>
+                    <div class="flex flex-col md:flex-row items-center md:items-start">
+                        <div class="md:w-1/2 md:pr-12 order-last md:order-first w-full"></div>
                         <div class="flex-shrink-0 w-12 h-12 bg-[#f5d118] rounded-full flex items-center justify-center text-white font-bold text-xl relative z-10 mx-auto md:mx-0">
                             2
                         </div>
@@ -236,6 +239,7 @@
                             </p>
                         </div>
                     </div>
+
                     <!-- Step 3 -->
                     <div class="flex flex-col md:flex-row items-center md:items-start">
                         <div class="md:w-1/2 md:pr-12 mb-6 md:mb-0 md:text-right">
@@ -247,14 +251,11 @@
                         <div class="flex-shrink-0 w-12 h-12 bg-[#f5d118] rounded-full flex items-center justify-center text-white font-bold text-xl relative z-10 mx-auto md:mx-0">
                             3
                         </div>
-                        <div class="md:w-1/2 md:pl-12 mt-6 md:mt-0 w-full">
-                            <div class="bg-gray-200 rounded-lg h-48 flex items-center justify-center overflow-hidden">
-                                <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=600&q=80" alt="Construction" class="w-full h-full object-cover">
-                            </div>
-                        </div>
+                        <div class="md:w-1/2 md:pl-12 mt-6 md:mt-0 w-full"></div>
                     </div>
                 </div>
             </section>
+
 
             <!-- Why Choose Us -->
             <section class="py-12 bg-gray-50">
@@ -265,23 +266,24 @@
                     </div>
                     <div class="grid md:grid-cols-3 gap-8">
                         <div class="bg-white rounded-xl shadow-md p-6 flex flex-col items-center text-center">
-                            <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80" alt="Expertise" class="w-20 h-20 object-cover rounded-full mb-4">
+                            <i class="fas fa-hard-hat text-[#f5d118] text-6xl mb-4"></i>
                             <h3 class="font-bold text-[#1b3c4d] mb-2">Proven Expertise</h3>
                             <p class="text-gray-700 text-sm">Years of experience in poultry housing and farm management across Kenya.</p>
                         </div>
                         <div class="bg-white rounded-xl shadow-md p-6 flex flex-col items-center text-center">
-                            <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80" alt="Quality" class="w-20 h-20 object-cover rounded-full mb-4">
+                            <i class="fas fa-tools text-[#f5d118] text-6xl mb-4"></i>
                             <h3 class="font-bold text-[#1b3c4d] mb-2">Quality Materials</h3>
                             <p class="text-gray-700 text-sm">We use only durable, weather-resistant materials for long-lasting structures.</p>
                         </div>
                         <div class="bg-white rounded-xl shadow-md p-6 flex flex-col items-center text-center">
-                            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="Support" class="w-20 h-20 object-cover rounded-full mb-4">
+                            <i class="fas fa-headset text-[#f5d118] text-6xl mb-4"></i>
                             <h3 class="font-bold text-[#1b3c4d] mb-2">Ongoing Support</h3>
                             <p class="text-gray-700 text-sm">We guide you from planning to post-construction, ensuring your project’s success.</p>
                         </div>
                     </div>
                 </div>
             </section>
+
 
 
         </div>
