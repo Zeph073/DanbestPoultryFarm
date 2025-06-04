@@ -68,11 +68,8 @@ Route::get('/bulk-supply', function () {
 Route::get('/delivery-services', function () {
     return view('services/delivery-services');
 });
-Route::get('/equipment-accessories', function () {
-    return view('services/equipment-accessories');
-});
-Route::get('/feeds-supplements', function () {
-    return view('services/feeds-supplements');
+Route::get('/farming-consultancy', function () {
+    return view('services/farming-consultancy');
 });
 Route::get('/poultry-housing-construction', function () {
     return view('services/poultry-housing-construction');
@@ -83,6 +80,7 @@ Route::get('/poultry-training', function () {
 Route::get('/vaccination-health', function () {
     return view('services/vaccination-health');
 });
+
 
 
 

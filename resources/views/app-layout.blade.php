@@ -106,9 +106,6 @@
                             <a href="/delivery-services" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
                                 <i class="fas fa-chevron-right mr-2 text-xs"></i> Delivery Services
                             </a>
-                            <a href="/feeds-supplements" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
-                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Starter Feeds & Supplements
-                            </a>
                             <a href="/farming-consultancy" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
                                 <i class="fas fa-chevron-right mr-2 text-xs"></i> Farming Consultancy
                             </a>
