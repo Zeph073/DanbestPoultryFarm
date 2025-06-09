@@ -21,30 +21,30 @@
 {{--Navigation Bar--}}
 <nav class="bg-[#f5edde] text-white shadow-lg py-2 md:py-4 relative top-0 z-50 border-b-4 border-[#f5d118]">
     <div class="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="flex justify-between h-20 items-center">
+        <div class="flex justify-between h-24 items-center">
             <!-- Logo -->
             <div class="flex-shrink-0 flex items-center">
                 <a href="/" class="flex items-center">
-                    <img src="{{ asset('images/sepha.png') }}" alt="Labl-fashion Logo" class="h-18 md:h-20 lg:h-24 transition-all duration-300">
+                    <img src="{{ asset('images/logo.png') }}" alt="Danbest Logo" class="h-32 md:h-34 lg:h-36 transition-all duration-300">
                 </a>
             </div>
 
             <!-- Desktop Menu -->
             <div class="hidden md:ml-10 md:flex md:items-center md:space-x-8">
-                <a href="/" class="px-3 py-2 text-white hover:text-[#f5d118] transition-colors duration-300 flex items-center">
+                <a href="/" class="px-3 py-2 text-black hover:text-[#1b3c4d] transition-colors duration-300 flex items-center">
                     <i class="fas fa-home mr-2"></i> Home
                 </a>
-                <a href="/about-us" class="px-3 py-2 text-white hover:text-[#f5d118] transition-colors duration-300 flex items-center">
+                <a href="/about-us" class="px-3 py-2 text-black hover:text-[#1b3c4d] transition-colors duration-300 flex items-center">
                     <i class="fas fa-info-circle mr-2"></i> About Us
                 </a>
 
                 <!-- Products Dropdown -->
                 <div class="relative group">
-                    <button class="px-3 py-2 text-white hover:text-[#f5d118] transition-colors duration-300 flex items-center">
+                    <button class="px-3 py-2 text-black hover:text-[#1b3c4d] transition-colors duration-300 flex items-center">
                         <i class="fas fa-egg mr-2"></i> Products
                         <i class="fas fa-chevron-down ml-1 text-xs"></i>
                     </button>
-                    <div class="absolute left-0 mt-2 w-64 origin-top-left rounded-md shadow-lg bg-black border border-[#f5d118] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
+                    <div class="absolute left-0 mt-2 w-64 origin-top-left rounded-md shadow-lg bg-[#1b3c4d] border border-[#f5d118] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
                         <div class="py-1">
                             <a href="/live-day-old-chicks" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
                                 <i class="fas fa-chevron-right mr-2 text-xs"></i> Live Day-Old Chicks
@@ -85,11 +85,11 @@
 
                 <!-- Services Dropdown -->
                 <div class="relative group">
-                    <button class="px-3 py-2 text-white hover:text-[#f5d118] transition-colors duration-300 flex items-center">
+                    <button class="px-3 py-2 text-black hover:text-[#1b3c4d] transition-colors duration-300 flex items-center">
                         <i class="fas fa-concierge-bell mr-2"></i> Services
                         <i class="fas fa-chevron-down ml-1 text-xs"></i>
                     </button>
-                    <div class="absolute left-0 mt-2 w-72 origin-top-left rounded-md shadow-lg bg-black border border-[#f5d118] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
+                    <div class="absolute left-0 mt-2 w-72 origin-top-left rounded-md shadow-lg bg-[#1b3c4d] border border-[#f5d118] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
                         <div class="py-1">
                             <a href="/poultry-housing-construction" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
                                 <i class="fas fa-chevron-right mr-2 text-xs"></i> Poultry Housing Construction
@@ -113,20 +113,20 @@
                     </div>
                 </div>
 
-                <a href="/blog" class="px-3 py-2 text-white hover:text-[#f5d118] transition-colors duration-300 flex items-center">
+                <a href="/blog" class="px-3 py-2 text-black hover:text-[#1b3c4d] transition-colors duration-300 flex items-center">
                     <i class="fas fa-blog mr-2"></i> Blog
                 </a>
-                <a href="/faqs" class="px-3 py-2 text-white hover:text-[#f5d118] transition-colors duration-300 flex items-center">
+                <a href="/faqs" class="px-3 py-2 text-black hover:text-[#1b3c4d] transition-colors duration-300 flex items-center">
                     <i class="fas fa-question-circle mr-2"></i> FAQs
                 </a>
-                <a href="/contact-us" class="px-3 py-2 text-white hover:text-[#f5d118] transition-colors duration-300 flex items-center">
+                <a href="/contact-us" class="px-3 py-2 text-black hover:text-[#1b3c4d] transition-colors duration-300 flex items-center">
                     <i class="fas fa-envelope mr-2"></i> Contact Us
                 </a>
             </div>
 
             <!-- Mobile menu button -->
             <div class="md:hidden flex items-center">
-                <button type="button" id="mobile-menu-button" class="inline-flex items-center justify-center p-2 rounded-md text-[#f5d118] hover:text-white hover:bg-gray-700 focus:outline-none">
+                <button type="button" id="mobile-menu-button" class="inline-flex items-center justify-center p-2 rounded-md text-black hover:text-white hover:bg-gray-700 focus:outline-none">
                     <span class="sr-only">Open main menu</span>
                     <i class="fas fa-bars text-2xl"></i>
                 </button>
@@ -303,7 +303,7 @@
 
             <!-- Brand Column -->
             <div>
-                <img src="{{ asset('images/logo.png') }}" alt="Danbest Poultry Farm" class="h-20 md:h-24 w-auto">
+                <h3 class="text-lg font-bold text-[#f5d118] mb-4 border-b border-[#f5d118] pb-2">About Us</h3>
                 <p class="text-sm opacity-80">
                     At Danbest Poultry Farm, we are dedicated to raising high-quality live poultry and providing fresh poultry products that meet the needs of Kenyan farmers and households. Our farm specializes in indigenous (kienyeji) chickens, broilers, and layers, all raised under humane and sustainable conditions to ensure natural hardiness, rich flavor, and superior nutrition. We also offer expert poultry farming services to support your success in poultry rearing.
                 </p>
