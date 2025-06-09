@@ -76,7 +76,7 @@
                 <div class="flex flex-col md:flex-row items-center gap-12">
                     <div class="md:w-1/2 w-full">
                         <div class="bg-gray-100 rounded-xl overflow-hidden h-80 flex items-center justify-center">
-                            <img src="https://eggincubatorkenya.com/wp-content/uploads/2023/03/images-13-1.jpg" alt="Modern poultry house" class="w-full h-full object-cover">
+                            <img src="{{ asset('images/poultry-housing.png') }}" alt="Modern poultry house" class="w-full h-full object-cover">
                         </div>
                     </div>
                     <div class="md:w-1/2 w-full mt-8 md:mt-0">
@@ -203,58 +203,73 @@
             </section>
 
             <!-- Construction Process -->
-            <section class="py-8 bg-white">
-                <div class="text-center mb-12 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
-                    <h2 class="text-3xl font-bold text-[#1b3c4d] mb-4">Our Construction Process</h2>
-                    <div class="w-20 h-1 bg-[#f5d118] mx-auto"></div>
-                </div>
-                <div class="space-y-16 md:space-y-0 md:relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <!-- Vertical line for medium+ screens -->
-                    <div class="hidden md:block absolute left-1/2 top-0 bottom-0 w-0.5 bg-[#f5d118] transform -translate-x-1/2"></div>
+            <section class="py-16 text-[#1b3c4d] bg-gradient-to-b from-white to-gray-50">
+                <div class="max-w-5xl mx-auto px-6">
+                    <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">
+                        Our <span class="text-[#f5d118]">Construction Process</span>
+                    </h2>
 
-                    <!-- Step 1 -->
-                    <div class="flex flex-col md:flex-row items-center md:items-start">
-                        <div class="md:w-1/2 md:pr-12 mb-6 md:mb-0 md:text-right">
-                            <h3 class="text-xl font-bold text-[#1b3c4d]">1. Site Assessment</h3>
-                            <p class="text-gray-700 mt-2">
-                                We evaluate your land for topography, drainage, wind direction, and accessibility to design the optimal housing solution.
-                            </p>
-                        </div>
-                        <div class="flex-shrink-0 w-12 h-12 bg-[#f5d118] rounded-full flex items-center justify-center text-white font-bold text-xl relative z-10 mx-auto md:mx-0">
-                            1
-                        </div>
-                        <div class="md:w-1/2 md:pl-12 mt-6 md:mt-0 w-full"></div>
-                    </div>
+                    <div class="relative">
+                        <!-- Timeline Line -->
+                        <div class="absolute h-full w-1 bg-[#f5d118] left-4 md:left-1/2 md:-translate-x-1/2 rounded"></div>
 
-                    <!-- Step 2 -->
-                    <div class="flex flex-col md:flex-row items-center md:items-start">
-                        <div class="md:w-1/2 md:pr-12 order-last md:order-first w-full"></div>
-                        <div class="flex-shrink-0 w-12 h-12 bg-[#f5d118] rounded-full flex items-center justify-center text-white font-bold text-xl relative z-10 mx-auto md:mx-0">
-                            2
+                        <!-- Step 1 -->
+                        <div class="flex flex-col md:flex-row items-center mb-16 relative">
+                            <!-- Left Content -->
+                            <div class="md:w-1/2 md:pr-12 md:text-right mb-6 md:mb-0 pl-12 md:pl-0">
+                                <h3 class="text-sm font-semibold text-[#f5d118]">Step 1</h3>
+                                <h4 class="text-xl font-bold mt-1">Site Assessment</h4>
+                                <p class="mt-2 max-w-md mx-auto md:mx-0">
+                                    We evaluate your land for topography, drainage, wind direction, and accessibility to design the optimal housing solution.
+                                </p>
+                            </div>
+                            <!-- Dot -->
+                            <div class="absolute left-0 md:static w-8 h-8 rounded-full bg-[#f5d118] border-4 border-white shadow-md z-10 flex items-center justify-center text-white font-bold">
+                                1
+                            </div>
+                            <!-- Empty Right -->
+                            <div class="md:w-1/2 md:pl-12"></div>
                         </div>
-                        <div class="md:w-1/2 md:pl-12 mb-6 md:mb-0 text-left">
-                            <h3 class="text-xl font-bold text-[#1b3c4d]">2. Custom Design</h3>
-                            <p class="text-gray-700 mt-2">
-                                Our team creates a tailored housing plan, considering your bird type, farm goals, and budget for maximum results.
-                            </p>
-                        </div>
-                    </div>
 
-                    <!-- Step 3 -->
-                    <div class="flex flex-col md:flex-row items-center md:items-start">
-                        <div class="md:w-1/2 md:pr-12 mb-6 md:mb-0 md:text-right">
-                            <h3 class="text-xl font-bold text-[#1b3c4d]">3. Construction & Handover</h3>
-                            <p class="text-gray-700 mt-2">
-                                We build your poultry house with quality materials, keeping you updated every step, and hand over a ready-to-use facility.
-                            </p>
+                        <!-- Step 2 -->
+                        <div class="flex flex-col md:flex-row items-center mb-16 relative">
+                            <!-- Empty Left -->
+                            <div class="md:w-1/2 md:pr-12 md:text-right mb-6 md:mb-0"></div>
+                            <!-- Dot -->
+                            <div class="absolute left-0 md:static w-8 h-8 rounded-full bg-[#f5d118] border-4 border-white shadow-md z-10 flex items-center justify-center text-white font-bold">
+                                2
+                            </div>
+                            <!-- Right Content -->
+                            <div class="md:w-1/2 md:pl-12 pl-12 md:pl-0 max-w-md mx-auto md:mx-0">
+                                <h3 class="text-sm font-semibold text-[#f5d118]">Step 2</h3>
+                                <h4 class="text-xl font-bold mt-1">Custom Design</h4>
+                                <p class="mt-2">
+                                    Our team creates a tailored housing plan, considering your bird type, farm goals, and budget for maximum results.
+                                </p>
+                            </div>
                         </div>
-                        <div class="flex-shrink-0 w-12 h-12 bg-[#f5d118] rounded-full flex items-center justify-center text-white font-bold text-xl relative z-10 mx-auto md:mx-0">
-                            3
+
+                        <!-- Step 3 -->
+                        <div class="flex flex-col md:flex-row items-center relative">
+                            <!-- Left Content -->
+                            <div class="md:w-1/2 md:pr-12 md:text-right mb-6 md:mb-0 pl-12 md:pl-0 max-w-md mx-auto md:mx-0">
+                                <h3 class="text-sm font-semibold text-[#f5d118]">Step 3</h3>
+                                <h4 class="text-xl font-bold mt-1">Construction & Handover</h4>
+                                <p class="mt-2">
+                                    We build your poultry house with quality materials, keeping you updated every step, and hand over a ready-to-use facility.
+                                </p>
+                            </div>
+                            <!-- Dot -->
+                            <div class="absolute left-0 md:static w-8 h-8 rounded-full bg-[#f5d118] border-4 border-white shadow-md z-10 flex items-center justify-center text-white font-bold">
+                                3
+                            </div>
+                            <!-- Empty Right -->
+                            <div class="md:w-1/2 md:pl-12"></div>
                         </div>
-                        <div class="md:w-1/2 md:pl-12 mt-6 md:mt-0 w-full"></div>
                     </div>
                 </div>
             </section>
+
 
 
             <!-- Why Choose Us -->
