@@ -167,28 +167,41 @@
                             <i class="fas fa-chevron-down"></i>
                         </button>
                         <div id="mobile-products-menu" class="hidden pl-10 pt-3 space-y-3">
-                            <a href="/products/kienyeji-chicks" class="block text-gray-300 hover:text-[#f5d118]">
-                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Kienyeji Chicks
+                            <a href="/live-day-old-chicks" class="block text-gray-300 hover:text-[#f5d118]">
+                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Live Day-Old Chicks
                             </a>
-                            <a href="/products/kuroiler-chicks" class="block text-gray-300 hover:text-[#f5d118]">
-                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Kuroiler Chicks
+                            <a href="/grower-chickens" class="block text-gray-300 hover:text-[#f5d118]">
+                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Grower Chickens (4-6 weeks)
                             </a>
-                            <a href="/products/kari-improved" class="block text-gray-300 hover:text-[#f5d118]">
-                                <i class="fas fa-chevron-right mr-2 text-xs"></i> KARI Improved
+                            <a href="/mature-laying-hens" class="block text-gray-300 hover:text-[#f5d118]">
+                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Mature Laying Hens
                             </a>
-                            <a href="/products/white-leghorn" class="block text-gray-300 hover:text-[#f5d118]">
-                                <i class="fas fa-chevron-right mr-2 text-xs"></i> White Leghorn
+                            <a href="/breeding-stock" class="block text-gray-300 hover:text-[#f5d118]">
+                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Breeding Cocks & Hens
                             </a>
-                            <a href="/products/duck-breeds" class="block text-gray-300 hover:text-[#f5d118]">
-                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Duck Breeds
+                            <a href="/indigenous-kienyeji-chickens" class="block text-gray-300 hover:text-[#f5d118]">
+                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Indigenous (Kienyeji)
                             </a>
-                            <a href="/products/turkey-farming" class="block text-gray-300 hover:text-[#f5d118]">
-                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Turkey Farming
+                            <a href="/broiler-chickens" class="block text-gray-300 hover:text-[#f5d118]">
+                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Broiler Chickens
                             </a>
-                            <a href="/products/hatching-eggs" class="block text-gray-300 hover:text-[#f5d118]">
-                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Hatching Eggs
+                            <a href="/other-poultry" class="block text-gray-300 hover:text-[#f5d118]">
+                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Other Poultry (Ducks, Turkeys)
+                            </a>
+                            <a href="/fresh-table-eggs" class="block text-gray-300 hover:text-[#f5d118]">
+                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Fresh Table Eggs
+                            </a>
+                            <a href="/fertile-hatching-eggs" class="block text-gray-300 hover:text-[#f5d118]">
+                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Fertile Hatching Eggs
+                            </a>
+                            <a href="/fresh-chicken-meat" class="block text-gray-300 hover:text-[#f5d118]">
+                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Fresh Chicken Meat
+                            </a>
+                            <a href="/chicken-manure" class="block text-gray-300 hover:text-[#f5d118]">
+                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Chicken Manure
                             </a>
                         </div>
+
                     </div>
 
                     <!-- Services Accordion -->
@@ -200,31 +213,26 @@
                             <i class="fas fa-chevron-down"></i>
                         </button>
                         <div id="mobile-services-menu" class="hidden pl-10 pt-3 space-y-3">
-                            <a href="/services/incubation" class="block text-gray-300 hover:text-[#f5d118]">
-                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Incubation Service
+                            <a href="/poultry-housing-construction" class="block text-gray-300 hover:text-[#f5d118]">
+                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Poultry Housing Construction
                             </a>
-                            <a href="/services/training" class="block text-gray-300 hover:text-[#f5d118]">
-                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Farmers Training
+                            <a href="/vaccination-health" class="block text-gray-300 hover:text-[#f5d118]">
+                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Vaccination & Health Management
                             </a>
-                            <a href="/services/vaccination" class="block text-gray-300 hover:text-[#f5d118]">
-                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Vaccination Services
+                            <a href="/poultry-training" class="block text-gray-300 hover:text-[#f5d118]">
+                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Poultry Farming Training
                             </a>
-                            <a href="/services/farm-visit" class="block text-gray-300 hover:text-[#f5d118]">
-                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Farm Visit
+                            <a href="/bulk-supply" class="block text-gray-300 hover:text-[#f5d118]">
+                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Bulk Supply to Farmers
                             </a>
-                            <a href="/services/after-sale" class="block text-gray-300 hover:text-[#f5d118]">
-                                <i class="fas fa-chevron-right mr-2 text-xs"></i> After-sale Services
+                            <a href="/delivery-services" class="block text-gray-300 hover:text-[#f5d118]">
+                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Delivery Services
                             </a>
-                            <a href="/services/consulting" class="block text-gray-300 hover:text-[#f5d118]">
-                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Consulting Services
-                            </a>
-                            <a href="/services/youth-mentorship" class="block text-gray-300 hover:text-[#f5d118]">
-                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Youth Mentorship
-                            </a>
-                            <a href="/services/chicks-delivery" class="block text-gray-300 hover:text-[#f5d118]">
-                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Chicks Delivery
+                            <a href="/farming-consultancy" class="block text-gray-300 hover:text-[#f5d118]">
+                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Farming Consultancy
                             </a>
                         </div>
+
                     </div>
 
                     <a href="/blog" class="text-white hover:text-[#f5d118] text-xl font-medium flex items-center border-b border-gray-800 pb-4">

@@ -6,10 +6,20 @@
     <!-- Hero Section with Animated Background -->
     <section class="relative bg-black text-white overflow-hidden h-96 flex items-center">
         <!-- Animated chicken wire background -->
-        <div class="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgdmlld0JveD0iMCAwIDQwIDQwIj48cGF0aCBkPSJNMCAwaDQwdjQwSDB6IiBmaWxsPSJub25lIi8+PHBhdGggZD0iTTAgMjBoNDBNMjAgMHY0MCIgc3Ryb2tlPSJyZ2JhKDI1NSwyMTMsMCwwLjA1KSIgc3Ryb2tlLXdpZHRoPSIxIi8+PC9zdmc+')] opacity-20"></div>
-        <div class="absolute inset-0 bg-gradient-to-r from-black to-transparent z-0"></div>
+        <div
+            class="absolute inset-0 bg-black bg-repeat"
+            style="
+      background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgdmlld0JveD0iMCAwIDQwIDQwIj48cGF0aCBkPSJNMCAwaDQwdjQwSDB6IiBmaWxsPSJub25lIi8+PHBhdGggZD0iTTAgMjBoNDBNMjAgMHY0MCIgc3Ryb2tlPSJyZ2JhKDI1NSwyMTMsMCwwLjA1KSIgc3Ryb2tlLXdpZHRoPSIxIi8+PC9zdmc+');
+      background-repeat: repeat;
+      background-size: 40px 40px;
+      opacity: 0.15;
+    "
+        ></div>
 
-        <div class="container mx-auto px-6 relative z-10 text-center">
+        <!-- Gradient overlay -->
+        <div class="absolute inset-0 bg-gradient-to-r from-black/70 to-transparent z-10"></div>
+
+        <div class="container mx-auto px-6 relative z-20 text-center">
             <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
                 <span class="text-[#f5d118]">Our</span> Story
             </h1>
@@ -19,16 +29,17 @@
         </div>
 
         <!-- Decorative chicken illustration -->
-        <div class="absolute bottom-0 right-0 w-64 h-64 opacity-10">
+        <div class="absolute bottom-0 right-0 w-64 h-64 opacity-10 z-10">
             <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
                 <path fill="#f5d118" d="M40,-65.5C50.7,-57.1,58,-44.3,65.3,-30.8C72.6,-17.3,79.9,-3.1,77.4,9.1C74.9,21.3,62.5,31.5,50.3,41.8C38.1,52.1,26.1,62.5,11.5,69.5C-3.1,76.5,-20.3,80.1,-33.9,74.1C-47.5,68.1,-57.5,52.5,-65.7,36.2C-73.9,19.9,-80.3,2.9,-77.4,-12.3C-74.5,-27.5,-62.4,-40.9,-48.7,-48.7C-35,-56.5,-19.7,-58.7,-3.7,-54.4C12.3,-50.1,24.6,-39.3,40,-65.5Z" transform="translate(100 100)" />
             </svg>
         </div>
     </section>
 
+
     <!-- Our Purpose Section -->
     <section class="py-16">
-        <div class="container mx-auto px-6 max-w-8xl">
+        <div class="mx-auto px-6 max-w-8xl">
             <div class="text-center mb-12">
                 <h2 class="text-3xl md:text-4xl font-bold text-[#1b3c4d] mb-4">Who We Are</h2>
                 <div class="w-20 h-1 bg-[#f5d118] mx-auto"></div>
@@ -64,7 +75,7 @@
 
     <!-- Mission & Vision Section -->
     <section class="py-16">
-        <div class="container mx-auto px-6 max-w-8xl">
+        <div class="mx-auto px-6 max-w-8xl">
             <div class="grid md:grid-cols-2 gap-12">
                 <!-- Mission -->
                 <div class="relative">
@@ -103,7 +114,7 @@
 
     <!-- Our Values Section -->
     <section class="py-16">
-        <div class="container mx-auto px-6 max-w-8xl">
+        <div class="mx-auto px-6 max-w-8xl">
             <div class="text-center mb-12">
                 <h2 class="text-3xl md:text-4xl font-bold text-[#1b3c4d] mb-4">Our Core Values</h2>
                 <div class="w-20 h-1 bg-[#f5d118] mx-auto"></div>
@@ -171,7 +182,7 @@
 
     <!-- CTA Section -->
     <section class="py-16 bg-[#f5d118]">
-        <div class="container mx-auto px-6 text-center max-w-4xl">
+        <div class="mx-auto px-6 text-center max-w-4xl">
             <h2 class="text-3xl md:text-4xl font-bold text-[#1b3c4d] mb-4">Ready to Partner With Us?</h2>
             <p class="text-xl text-[#1b3c4d] mb-8 max-w-8xl mx-auto">
                 Whether you're looking for quality chicks, farming advice, or partnership opportunities, we're here to help.
