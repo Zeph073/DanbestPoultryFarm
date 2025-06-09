@@ -5,7 +5,7 @@
 @section('main')
     <!-- Hero Section -->
     <section class="relative bg-black text-white overflow-hidden">
-        <div class="container mx-auto px-6 py-24 md:py-32 flex flex-col md:flex-row items-center">
+        <div class="px-6 py-24 md:py-32 flex flex-col md:flex-row items-center">
             <!-- Text Content -->
             <div class="md:w-1/2 z-10">
                 <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
@@ -51,7 +51,7 @@
 
     <!-- Featured Products & Services Section -->
     <section class="py-20">
-        <div class="container mx-auto px-6 max-w-8xl">
+        <div class="px-6 max-w-8xl">
 
             <!-- Section Title -->
             <div class="text-center mb-16">
@@ -171,7 +171,7 @@
 
     <!-- Why Choose Us Section -->
     <section class="py-16 bg-[#1b3c4d] text-white">
-        <div class="container mx-auto px-6">
+        <div class="mx-auto px-6">
             <div class="text-center mb-12">
                 <h2 class="text-3xl md:text-4xl font-bold mb-4">Why Kenyans Love Danbest Poultry</h2>
                 <div class="w-20 h-1 bg-[#f5d118] mx-auto"></div>
@@ -227,7 +227,7 @@
 
     <!-- Testimonials Section -->
     <section class="py-16 bg-white">
-        <div class="container mx-auto px-6">
+        <div class="mx-auto px-6">
             <div class="text-center mb-12">
                 <h2 class="text-3xl md:text-4xl font-bold text-[#1b3c4d] mb-4">What Our Customers Say</h2>
                 <div class="w-20 h-1 bg-[#f5d118] mx-auto"></div>
@@ -320,7 +320,7 @@
 
     <!-- Newsletter Section -->
     <section class="py-16 bg-[#f5d118]">
-        <div class="container mx-auto px-6 text-center">
+        <div class="mx-auto px-6 text-center">
             <h2 class="text-3xl md:text-4xl font-bold text-[#1b3c4d] mb-4">Get in Touch</h2>
             <p class="text-xl text-[#1b3c4d] mb-8 max-w-8xl mx-auto">
                 Have questions or want to learn more about our poultry farm? Reach out to us today!
