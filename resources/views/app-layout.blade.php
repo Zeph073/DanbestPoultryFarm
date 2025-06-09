@@ -19,7 +19,7 @@
 <body class="bg-[#ffffff] text-paragraph font-PlayfairDisplayRegular">
 
 {{--Navigation Bar--}}
-<nav class="bg-[#f5edde] text-white shadow-lg py-2 md:py-4 relative top-0 z-50 border-b-4 border-[#f5d118]">
+<nav class="bg-white text-black shadow-lg py-2 md:py-4 relative top-0 z-50 border-b-4 border-[#f5d118]">
     <div class="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between h-24 items-center">
             <!-- Logo -->
@@ -44,7 +44,7 @@
                         <i class="fas fa-egg mr-2"></i> Products
                         <i class="fas fa-chevron-down ml-1 text-xs"></i>
                     </button>
-                    <div class="absolute left-0 mt-2 w-64 origin-top-left rounded-md shadow-lg bg-[#1b3c4d] border border-[#f5d118] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
+                    <div class="absolute left-0 mt-2 w-64 origin-top-left rounded-md shadow-lg bg-black border border-[#f5d118] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
                         <div class="py-1">
                             <a href="/live-day-old-chicks" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
                                 <i class="fas fa-chevron-right mr-2 text-xs"></i> Live Day-Old Chicks
@@ -89,7 +89,7 @@
                         <i class="fas fa-concierge-bell mr-2"></i> Services
                         <i class="fas fa-chevron-down ml-1 text-xs"></i>
                     </button>
-                    <div class="absolute left-0 mt-2 w-72 origin-top-left rounded-md shadow-lg bg-[#1b3c4d] border border-[#f5d118] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
+                    <div class="absolute left-0 mt-2 w-72 origin-top-left rounded-md shadow-lg bg-black border border-[#f5d118] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
                         <div class="py-1">
                             <a href="/poultry-housing-construction" class="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-[#f5d118]">
                                 <i class="fas fa-chevron-right mr-2 text-xs"></i> Poultry Housing Construction
