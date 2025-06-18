@@ -1,10 +1,10 @@
 @extends('app-layout')
 @section('title', 'Home | Danbest Poultry Farm')
-@section('description', 'Your trusted source for fresh, healthy, and locally raised chicken products in Kenya')
-@section('keywords', 'poultry farm, chicken Kenya, fresh eggs, quality chicken Nairobi')
+@section('description', 'Your trusted source for fresh, healthy, and locally raised chicken products in Lodwar, Kenya')
+@section('keywords', 'poultry farm, chicken Lodwar, fresh eggs, quality chicken Lodwar')
 @section('main')
     <!-- Hero Section -->
-    <section class="relative bg-black text-white overflow-hidden">
+    <section class="relative bg-blue-950 text-white overflow-hidden">
         <div class="px-6 py-24 md:py-32 flex flex-col md:flex-row items-center">
             <!-- Text Content -->
             <div class="md:w-1/2 z-10">
@@ -12,7 +12,7 @@
                     Welcome to <span class="text-[#f5d118]">Danbest</span> Poultry Farm
                 </h1>
                 <p class="text-xl md:text-2xl mb-8">
-                    Your trusted source for fresh, healthy, and locally raised chicken products in Kenya
+                    Your trusted source for fresh, healthy, and locally raised chicken products in Lodwar, Kenya
                 </p>
                 <p class="mb-8 text-gray-300">
                     At Danbest Poultry Farm, we are dedicated to providing fresh, healthy, and high-quality poultry products raised with care and commitment to sustainable farming. Whether you are a family seeking nutritious meals or a business requiring reliable bulk supplies, we bring farm-fresh live birds, eggs, and poultry products directly to your doorstep. Experience the natural taste and superior quality that comes from our well-managed farm, where every bird is nurtured for excellence.
@@ -27,7 +27,7 @@
                 </div>
             </div>
 
-            <!-- Image Placeholder - Replace with actual chicken/farm image -->
+            <!-- Image Placeholder-->
             <div class="md:w-1/2 mt-10 md:mt-0 z-10">
                 <div class="relative">
                     <div class="w-full h-80 md:h-96 bg-gray-700 rounded-lg overflow-hidden">
@@ -173,7 +173,7 @@
     <section class="py-16 bg-[#1b3c4d] text-white">
         <div class="mx-auto px-6">
             <div class="text-center mb-12">
-                <h2 class="text-3xl md:text-4xl font-bold mb-4">Why Kenyans Love Danbest Poultry</h2>
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Why choose Danbest Poultry Farm</h2>
                 <div class="w-20 h-1 bg-[#f5d118] mx-auto"></div>
             </div>
 
@@ -219,7 +219,7 @@
                         </svg>
                     </div>
                     <h3 class="text-xl font-bold mb-2 text-center">Delivery Services Available</h3>
-                    <p class="text-black text-center">Convenient delivery to Nairobi and surrounding areas for your fresh poultry needs.</p>
+                    <p class="text-black text-center">Convenient delivery to Lodwar and surrounding areas for your fresh poultry needs.</p>
                 </div>
             </div>
         </div>
@@ -258,7 +258,7 @@
                             </div>
                         </div>
                     </div>
-                    <p class="text-gray-600 italic">"The quality of Danbest's chicken is unmatched in Nairobi. My family can taste the difference, and the delivery is always on time!"</p>
+                    <p class="text-gray-600 italic">"The quality of Danbest's chicken is unmatched in Lodwar. My family can taste the difference, and the delivery is always on time!"</p>
                 </div>
 
                 <!-- Testimonial 2 -->

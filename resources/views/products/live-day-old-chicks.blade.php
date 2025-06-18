@@ -232,7 +232,7 @@
                             <div id="tab-description">
                                 <h3 class="text-lg font-bold text-[#1b3c4d] mb-4">Our Story</h3>
                                 <p class="text-gray-700">
-                                    Founded in the heart of Namariat, Lodwar, Danbest Poultry Farm started with a vision: to empower local farmers and provide high-quality poultry for Turkana and beyond. From humble beginnings near the Shell Petrol Station, we've grown into a trusted hub for poultry knowledge, healthy chicks, and community support.
+                                    Founded in the heart of Lodwar, Namariat, Danbest Poultry Farm started with a vision: to empower local farmers and provide high-quality poultry for Turkana and beyond. From humble beginnings near the Shell Petrol Station, we've grown into a trusted hub for poultry knowledge, healthy chicks, and community support.
                                 </p>
                                 <p class="text-gray-700 mt-2">
                                     <span class="font-bold">Visit us:</span> We welcome visitors, students, and aspiring farmers to tour our farm and learn first-hand about best practices in poultry keeping.

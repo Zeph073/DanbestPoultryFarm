@@ -304,7 +304,7 @@
 </main>
 
 {{--Footer element--}}
-<footer class="bg-black text-yellow-50 pt-12 pb-6 px-8 border-t-4 border-[#f5d118]">
+<footer class="bg-blue-950 text-yellow-50 pt-12 pb-6 px-8 border-t-4 border-[#f5d118]">
     <div class="max-w-8xl mx-auto">
         <!-- Footer Content Grid -->
         <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-5 gap-8 mb-10">
@@ -343,7 +343,7 @@
             <div>
                 <h3 class="text-lg font-bold text-[#f5d118] mb-4 border-b border-[#f5d118] pb-2">Our Products</h3>
                 <ul class="space-y-2">
-                    <li><a href="/live-day-Old-chicks" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
+                    <li><a href="/live-day-old-chicks" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">
                             <svg class="w-3 h-3 mr-2 text-[#f5d118]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path></svg>
                             Live day-old chicks</a></li>
                     <li><a href="/grower-chickens" class="text-gray-300 hover:text-[#f5d118] hover:underline transition-colors text-sm flex items-center">

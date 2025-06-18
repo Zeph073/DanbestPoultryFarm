@@ -53,6 +53,7 @@
                             <select name="subject" class="w-full px-4 py-3 text-gray-800 bg-white border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#f5d118] focus:border-transparent transition">
                                 <option value="">Select a subject</option>
                                 <option value="order">Product Order</option>
+                                <option value="order">Consultancy Request</option>
                                 <option value="delivery">Delivery Inquiry</option>
                                 <option value="wholesale">Wholesale Inquiry</option>
                                 <option value="feedback">Feedback</option>
