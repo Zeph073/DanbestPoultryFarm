@@ -25,35 +25,35 @@ This website is designed to provide visitors with information about Danbest's se
 🚀 Getting Started
 ✅ Prerequisites
 Ensure you have the following installed on your machine:
-PHP 8.x
-Composer
-Node.js and npm (for Tailwind CSS or frontend tools)
-Laravel CLI
+- PHP 8.x
+- Composer
+- Node.js and npm (for Tailwind CSS or frontend tools)
+- Laravel CLI
 
 🖥️ Opening the Project
 Option 1: Open in VS Code
-Open VS Code
-Click File > Open Folder
-Select the project folder
+- Open VS Code
+- Click File > Open Folder
+- Select the project folder
 
 Option 2: Open in PhpStorm
-Open PhpStorm
-Click Open
-Select the project folder (danbest-poultry)
-PhpStorm will automatically detect it as a Laravel project
+- Open PhpStorm
+- Click Open
+- Select the project folder (danbest-poultry)
+- PhpStorm will automatically detect it as a Laravel project
 
 🔧 Install Dependencies
 Once inside the project folder:
-composer install
-npm install && npm run dev
-cp .env.example .env
-php artisan key:generate
-Update your .env file with database and environment config.
+- composer install
+- npm install && npm run dev
+- cp .env.example .env
+- php artisan key:generate
+- Update your .env file with database and environment config.
 
 ▶️ Running the Project Locally
-Start the development server:
-php artisan serve
-Visit your app in the browser at:
-http://127.0.0.1:8000
+- Start the development server:
+- php artisan serve
+- Visit your app in the browser at:
+- http://127.0.0.1:8000
 
 
